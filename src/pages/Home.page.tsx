@@ -4,6 +4,7 @@ import { GlobalLayout } from "@/layout/GlobalLayout";
 import { SimpleGrid } from "@mantine/core";
 
 export function HomePage() {
+  console.log(cardsData.length);
   return (
     <GlobalLayout>
       <SimpleGrid
