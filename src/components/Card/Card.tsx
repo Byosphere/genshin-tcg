@@ -41,7 +41,9 @@ export default function TcgCard({ card, size = "md" }: TcgCardProps) {
       p={0}
       style={{ overflow: "hidden" }}
     >
-      <Text>{card.name}</Text>
+      <Text pl="md" py={2} bg="rgba(0, 0, 0, 0.5)">
+        {card.name}
+      </Text>
     </Card>
   );
 }
