@@ -17,7 +17,7 @@ type TcgCardProps = {
     name: string;
     filename: string;
     rarity: number;
-    set: string;
+    set: number;
   };
 };
 
