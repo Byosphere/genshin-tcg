@@ -1,5 +1,5 @@
 import TcgCard, { CARD_WIDTH } from "@/components/Card/Card";
-import cardsData from "@/assets/cards.json";
+import cardsData from "@/assets/tcgCards.json";
 import { GlobalLayout } from "@/layout/GlobalLayout";
 import { SimpleGrid } from "@mantine/core";
 
