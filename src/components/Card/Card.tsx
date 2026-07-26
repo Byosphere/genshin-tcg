@@ -16,8 +16,8 @@ type TcgCardProps = {
     cardId: string;
     name: string;
     filename: string;
-    set: string;
     rarity: number;
+    set: string;
   };
 };
 
@@ -25,7 +25,7 @@ export default function TcgCard({ card, size = "md" }: TcgCardProps) {
   const normalizedFilename = card.filename.startsWith("cellImage_")
     ? card.filename
     : `cellImage_${card.filename}`;
-  const imageUrl = `/_${card.set}/${normalizedFilename}`;
+  const imageUrl = `/_set${card.set}/${normalizedFilename}`;
   const scale = SIZE_SCALE[size];
   const width = CARD_WIDTH * scale;
   const height = CARD_HEIGHT * scale;

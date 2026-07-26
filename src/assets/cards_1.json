@@ -1,0 +1,2193 @@
+[
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C003",
+    "rarity": 1,
+    "name": "Shenhe",
+    "filename": "image_01.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C004",
+    "rarity": 4,
+    "name": "Barbara",
+    "filename": "image_02.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C001",
+    "rarity": 1,
+    "name": "Ganyu",
+    "filename": "image_03.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C004",
+    "rarity": 1,
+    "name": "Barbara",
+    "filename": "image_04.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C003",
+    "rarity": 3,
+    "name": "Shenhe",
+    "filename": "image_05.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C002",
+    "rarity": 4,
+    "name": "Chongyun",
+    "filename": "image_06.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C001",
+    "rarity": 4,
+    "name": "Ganyu",
+    "filename": "image_07.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C001",
+    "rarity": 2,
+    "name": "Ganyu",
+    "filename": "image_08.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C004",
+    "rarity": 3,
+    "name": "Barbara",
+    "filename": "image_09.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C005",
+    "rarity": 4,
+    "name": "Mona",
+    "filename": "image_10.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C005",
+    "rarity": 3,
+    "name": "Mona",
+    "filename": "image_11.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C003",
+    "rarity": 4,
+    "name": "Shenhe",
+    "filename": "image_12.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C005",
+    "rarity": 1,
+    "name": "Mona",
+    "filename": "image_13.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C001",
+    "rarity": 3,
+    "name": "Ganyu",
+    "filename": "image_14.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C004",
+    "rarity": 2,
+    "name": "Barbara",
+    "filename": "image_15.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C003",
+    "rarity": 2,
+    "name": "Shenhe",
+    "filename": "image_16.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C002",
+    "rarity": 2,
+    "name": "Chongyun",
+    "filename": "image_17.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C002",
+    "rarity": 1,
+    "name": "Chongyun",
+    "filename": "image_18.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C002",
+    "rarity": 3,
+    "name": "Chongyun",
+    "filename": "image_19.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C005",
+    "rarity": 2,
+    "name": "Mona",
+    "filename": "image_20.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C009",
+    "rarity": 1,
+    "name": "Kujou Sara",
+    "filename": "image_21.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C006",
+    "rarity": 4,
+    "name": "Diluc",
+    "filename": "image_22.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C009",
+    "rarity": 4,
+    "name": "Kujou Sara",
+    "filename": "image_23.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C006",
+    "rarity": 2,
+    "name": "Diluc",
+    "filename": "image_24.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C009",
+    "rarity": 2,
+    "name": "Kujou Sara",
+    "filename": "image_25.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C008",
+    "rarity": 4,
+    "name": "Keqing",
+    "filename": "image_26.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C008",
+    "rarity": 1,
+    "name": "Keqing",
+    "filename": "image_27.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C008",
+    "rarity": 2,
+    "name": "Keqing",
+    "filename": "image_28.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C007",
+    "rarity": 1,
+    "name": "Xiangling",
+    "filename": "image_29.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C007",
+    "rarity": 4,
+    "name": "Xiangling",
+    "filename": "image_30.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C007",
+    "rarity": 3,
+    "name": "Xiangling",
+    "filename": "image_31.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C010",
+    "rarity": 2,
+    "name": "Lisa",
+    "filename": "image_32.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C010",
+    "rarity": 1,
+    "name": "Lisa",
+    "filename": "image_33.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C010",
+    "rarity": 3,
+    "name": "Lisa",
+    "filename": "image_34.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C010",
+    "rarity": 4,
+    "name": "Lisa",
+    "filename": "image_35.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C006",
+    "rarity": 1,
+    "name": "Diluc",
+    "filename": "image_36.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C006",
+    "rarity": 3,
+    "name": "Diluc",
+    "filename": "image_37.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C008",
+    "rarity": 3,
+    "name": "Keqing",
+    "filename": "image_38.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C007",
+    "rarity": 2,
+    "name": "Xiangling",
+    "filename": "image_39.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C013",
+    "rarity": 2,
+    "name": "Ningguang",
+    "filename": "image_40.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C011",
+    "rarity": 3,
+    "name": "Sucrose",
+    "filename": "image_41.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C015",
+    "rarity": 2,
+    "name": "Collei",
+    "filename": "image_42.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C011",
+    "rarity": 4,
+    "name": "Sucrose",
+    "filename": "image_43.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C015",
+    "rarity": 4,
+    "name": "Collei",
+    "filename": "image_44.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C012",
+    "rarity": 1,
+    "name": "Jean",
+    "filename": "image_45.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C015",
+    "rarity": 1,
+    "name": "Collei",
+    "filename": "image_46.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C014",
+    "rarity": 4,
+    "name": "Noelle",
+    "filename": "image_47.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C013",
+    "rarity": 3,
+    "name": "Ningguang",
+    "filename": "image_48.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C013",
+    "rarity": 1,
+    "name": "Ningguang",
+    "filename": "image_49.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C014",
+    "rarity": 1,
+    "name": "Noelle",
+    "filename": "image_50.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C014",
+    "rarity": 3,
+    "name": "Noelle",
+    "filename": "image_51.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C011",
+    "rarity": 1,
+    "name": "Sucrose",
+    "filename": "image_52.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C012",
+    "rarity": 4,
+    "name": "Jean",
+    "filename": "image_53.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C011",
+    "rarity": 2,
+    "name": "Sucrose",
+    "filename": "image_54.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C013",
+    "rarity": 4,
+    "name": "Ningguang",
+    "filename": "image_55.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C014",
+    "rarity": 2,
+    "name": "Noelle",
+    "filename": "image_56.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C015",
+    "rarity": 3,
+    "name": "Collei",
+    "filename": "image_57.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C012",
+    "rarity": 2,
+    "name": "Jean",
+    "filename": "image_58.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C012",
+    "rarity": 3,
+    "name": "Jean",
+    "filename": "image_59.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A001",
+    "rarity": 1,
+    "name": "唯此一心",
+    "filename": "image_60.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A001",
+    "rarity": 2,
+    "name": "唯此一心",
+    "filename": "image_64.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A002",
+    "rarity": 1,
+    "name": "吐纳真定",
+    "filename": "image_75.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A002",
+    "rarity": 2,
+    "name": "吐纳真定",
+    "filename": "image_66.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A003",
+    "rarity": 1,
+    "name": "寒天宣命祝词",
+    "filename": "image_67.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A003",
+    "rarity": 2,
+    "name": "寒天宣命祝词",
+    "filename": "image_65.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A004",
+    "rarity": 1,
+    "name": "光辉的季节",
+    "filename": "image_71.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A004",
+    "rarity": 2,
+    "name": "光辉的季节",
+    "filename": "image_77.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C016",
+    "rarity": 1,
+    "name": "纯水精灵·洛蒂娅",
+    "filename": "image_68.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C016",
+    "rarity": 2,
+    "name": "纯水精灵·洛蒂娅",
+    "filename": "image_61.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C016",
+    "rarity": 3,
+    "name": "纯水精灵·洛蒂娅",
+    "filename": "image_76.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C016",
+    "rarity": 4,
+    "name": "纯水精灵·洛蒂娅",
+    "filename": "image_70.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C017",
+    "rarity": 1,
+    "name": "深渊使者·渊火",
+    "filename": "image_63.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C017",
+    "rarity": 2,
+    "name": "深渊使者·渊火",
+    "filename": "image_69.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C017",
+    "rarity": 3,
+    "name": "深渊使者·渊火",
+    "filename": "image_74.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C017",
+    "rarity": 4,
+    "name": "深渊使者·渊火",
+    "filename": "image_73.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C018",
+    "rarity": 1,
+    "name": "翠翎恐蕈",
+    "filename": "image_73.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C018",
+    "rarity": 2,
+    "name": "翠翎恐蕈",
+    "filename": "image_78.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C018",
+    "rarity": 3,
+    "name": "翠翎恐蕈",
+    "filename": "image_62.png"
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG01B-C018",
+    "rarity": 4,
+    "name": "翠翎恐蕈",
+    "filename": "image_79.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A005",
+    "rarity": 1,
+    "name": "沉没的预言",
+    "filename": "image_95.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A005",
+    "rarity": 2,
+    "name": "沉没的预言",
+    "filename": "image_93.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A006",
+    "rarity": 1,
+    "name": "流火焦灼",
+    "filename": "image_80.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A006",
+    "rarity": 2,
+    "name": "流火焦灼",
+    "filename": "image_81.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A007",
+    "rarity": 1,
+    "name": "交叉火力",
+    "filename": "image_98.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A007",
+    "rarity": 2,
+    "name": "交叉火力",
+    "filename": "image_91.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A008",
+    "rarity": 1,
+    "name": "抵天雷罚",
+    "filename": "image_97.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A008",
+    "rarity": 2,
+    "name": "抵天雷罚",
+    "filename": "image_89.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A009",
+    "rarity": 1,
+    "name": "我界",
+    "filename": "image_90.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A009",
+    "rarity": 2,
+    "name": "我界",
+    "filename": "image_85.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A010",
+    "rarity": 1,
+    "name": "脉冲的魔女",
+    "filename": "image_86.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A010",
+    "rarity": 2,
+    "name": "脉冲的魔女",
+    "filename": "image_87.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A011",
+    "rarity": 1,
+    "name": "混元熵增论",
+    "filename": "image_99.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A011",
+    "rarity": 2,
+    "name": "混元熵增论",
+    "filename": "image_96.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A012",
+    "rarity": 1,
+    "name": "蒲公英的国土",
+    "filename": "image_82.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A012",
+    "rarity": 2,
+    "name": "蒲公英的国土",
+    "filename": "image_83.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A013",
+    "rarity": 1,
+    "name": "储之千日，用之一刻",
+    "filename": "image_94.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A013",
+    "rarity": 2,
+    "name": "储之千日，用之一刻",
+    "filename": "image_88.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A014",
+    "rarity": 1,
+    "name": "支援就交给我吧",
+    "filename": "image_84.png"
+  },
+  {
+    "cardType": "Action",
+    "cardId": "GCG01B-A014",
+    "rarity": 2,
+    "name": "支援就交给我吧",
+    "filename": "image_92.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A015",
+    "rarity": 1,
+    "name": "飞叶迴斜",
+    "filename": "image_101.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A015",
+    "rarity": 2,
+    "name": "飞叶迴斜",
+    "filename": "image_110.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A016",
+    "rarity": 1,
+    "name": "百川奔流",
+    "filename": "image_108.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A016",
+    "rarity": 2,
+    "name": "百川奔流",
+    "filename": "image_109.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A017",
+    "rarity": 1,
+    "name": "炽火重燃",
+    "filename": "image_111.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A017",
+    "rarity": 2,
+    "name": "炽火重燃",
+    "filename": "image_119.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A018",
+    "rarity": 1,
+    "name": "抱子增菌",
+    "filename": "image_106.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A018",
+    "rarity": 2,
+    "name": "抱子增菌",
+    "filename": "image_117.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A019",
+    "rarity": 1,
+    "name": "魔导绪论",
+    "filename": "image_102.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A019",
+    "rarity": 2,
+    "name": "魔导绪论",
+    "filename": "image_116.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A020",
+    "rarity": 1,
+    "name": "祭礼残章",
+    "filename": "image_100.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A020",
+    "rarity": 2,
+    "name": "祭礼残章",
+    "filename": "image_114.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A021",
+    "rarity": 1,
+    "name": "鸦羽弓",
+    "filename": "image_113.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A021",
+    "rarity": 2,
+    "name": "鸦羽弓",
+    "filename": "image_107.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A022",
+    "rarity": 1,
+    "name": "祭礼弓",
+    "filename": "image_112.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A022",
+    "rarity": 2,
+    "name": "祭礼弓",
+    "filename": "image_104.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A023",
+    "rarity": 1,
+    "name": "阿莫斯之弓",
+    "filename": "image_118.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A023",
+    "rarity": 2,
+    "name": "阿莫斯之弓",
+    "filename": "image_103.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A024",
+    "rarity": 1,
+    "name": "白铁大剑",
+    "filename": "image_115.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A024",
+    "rarity": 2,
+    "name": "白铁大剑",
+    "filename": "image_105.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A025",
+    "rarity": 1,
+    "name": "祭礼大剑",
+    "filename": "image_122.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A025",
+    "rarity": 2,
+    "name": "祭礼大剑",
+    "filename": "image_131.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A026",
+    "rarity": 1,
+    "name": "狼的末路",
+    "filename": "image_139.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A026",
+    "rarity": 2,
+    "name": "狼的末路",
+    "filename": "image_135.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A027",
+    "rarity": 1,
+    "name": "白缨枪",
+    "filename": "image_126.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A027",
+    "rarity": 2,
+    "name": "白缨枪",
+    "filename": "image_120.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A028",
+    "rarity": 1,
+    "name": "贯月矢",
+    "filename": "image_125.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A028",
+    "rarity": 2,
+    "name": "贯月矢",
+    "filename": "image_123.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A029",
+    "rarity": 1,
+    "name": "旅行剑",
+    "filename": "image_127.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A029",
+    "rarity": 2,
+    "name": "旅行剑",
+    "filename": "image_132.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A030",
+    "rarity": 1,
+    "name": "祭礼剑",
+    "filename": "image_130.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A030",
+    "rarity": 2,
+    "name": "祭礼剑",
+    "filename": "image_121.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A031",
+    "rarity": 1,
+    "name": "风鹰剑",
+    "filename": "image_137.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A031",
+    "rarity": 2,
+    "name": "风鹰剑",
+    "filename": "image_138.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A032",
+    "rarity": 1,
+    "name": "教官的帽子",
+    "filename": "image_124.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A032",
+    "rarity": 2,
+    "name": "教官的帽子",
+    "filename": "image_128.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A033",
+    "rarity": 1,
+    "name": "无常之面",
+    "filename": "image_133.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A033",
+    "rarity": 2,
+    "name": "无常之面",
+    "filename": "image_134.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A034",
+    "rarity": 1,
+    "name": "追忆之注连",
+    "filename": "image_129.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A034",
+    "rarity": 2,
+    "name": "追忆之注连",
+    "filename": "image_136.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A035",
+    "rarity": 1,
+    "name": "沙王的投影",
+    "filename": "image_141.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A035",
+    "rarity": 2,
+    "name": "沙王的投影",
+    "filename": "image_150.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A036",
+    "rarity": 1,
+    "name": "灵光明寂之心",
+    "filename": "image_156.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A036",
+    "rarity": 2,
+    "name": "灵光明寂之心",
+    "filename": "image_146.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A037",
+    "rarity": 1,
+    "name": "冰风迷途的勇士",
+    "filename": "image_153.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A037",
+    "rarity": 2,
+    "name": "冰风迷途的勇士",
+    "filename": "image_143.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A038",
+    "rarity": 1,
+    "name": "沉沦之心",
+    "filename": "image_158.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A038",
+    "rarity": 2,
+    "name": "沉沦之心",
+    "filename": "image_142.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A039",
+    "rarity": 1,
+    "name": "炽烈的炎之魔女",
+    "filename": "image_148.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A039",
+    "rarity": 2,
+    "name": "炽烈的炎之魔女",
+    "filename": "image_147.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A040",
+    "rarity": 1,
+    "name": "如雷的盛怒",
+    "filename": "image_157.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A040",
+    "rarity": 2,
+    "name": "如雷的盛怒",
+    "filename": "image_149.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A041",
+    "rarity": 1,
+    "name": "翠绿之影",
+    "filename": "image_140.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A041",
+    "rarity": 2,
+    "name": "翠绿之影",
+    "filename": "image_155.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A042",
+    "rarity": 1,
+    "name": "悠古的磐岩",
+    "filename": "image_151.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A042",
+    "rarity": 2,
+    "name": "悠古的磐岩",
+    "filename": "image_159.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A043",
+    "rarity": 1,
+    "name": "深林的记忆",
+    "filename": "image_144.png"
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG01B-A043",
+    "rarity": 2,
+    "name": "深林的记忆",
+    "filename": "image_152.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A044",
+    "rarity": 1,
+    "name": "璃月港口",
+    "filename": "image_145.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A044",
+    "rarity": 2,
+    "name": "璃月港口",
+    "filename": "image_154.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A045",
+    "rarity": 1,
+    "name": "骑士团图书馆",
+    "filename": "image_175.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A045",
+    "rarity": 2,
+    "name": "骑士团图书馆",
+    "filename": "image_163.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A046",
+    "rarity": 1,
+    "name": "西风大教堂",
+    "filename": "image_177.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A046",
+    "rarity": 2,
+    "name": "西风大教堂",
+    "filename": "image_173.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A047",
+    "rarity": 1,
+    "name": "桓那兰那",
+    "filename": "image_166.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A047",
+    "rarity": 2,
+    "name": "桓那兰那",
+    "filename": "image_168.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A048",
+    "rarity": 1,
+    "name": "派蒙",
+    "filename": "image_161.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A048",
+    "rarity": 2,
+    "name": "派蒙",
+    "filename": "image_176.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A048",
+    "rarity": 3,
+    "name": "派蒙",
+    "filename": "image_174.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A049",
+    "rarity": 1,
+    "name": "蒂玛乌斯",
+    "filename": "image_171.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A049",
+    "rarity": 2,
+    "name": "蒂玛乌斯",
+    "filename": "image_169.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A049",
+    "rarity": 3,
+    "name": "蒂玛乌斯",
+    "filename": "image_178.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A050",
+    "rarity": 1,
+    "name": "瓦格纳",
+    "filename": "image_160.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A050",
+    "rarity": 2,
+    "name": "瓦格纳",
+    "filename": "image_170.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A050",
+    "rarity": 3,
+    "name": "瓦格纳",
+    "filename": "image_162.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A051",
+    "rarity": 1,
+    "name": "卯师傅",
+    "filename": "image_165.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A051",
+    "rarity": 2,
+    "name": "卯师傅",
+    "filename": "image_164.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A051",
+    "rarity": 3,
+    "name": "卯师傅",
+    "filename": "image_167.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A052",
+    "rarity": 1,
+    "name": "提米",
+    "filename": "image_172.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A052",
+    "rarity": 2,
+    "name": "提米",
+    "filename": "image_179.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A052",
+    "rarity": 3,
+    "name": "提米",
+    "filename": "image_186.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A053",
+    "rarity": 2,
+    "name": "立本",
+    "filename": "image_181.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A053",
+    "rarity": 1,
+    "name": "立本",
+    "filename": "image_195.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A053",
+    "rarity": 3,
+    "name": "立本",
+    "filename": "image_197.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A054",
+    "rarity": 3,
+    "name": "田铁嘴",
+    "filename": "image_182.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A054",
+    "rarity": 1,
+    "name": "田铁嘴",
+    "filename": "image_184.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A054",
+    "rarity": 2,
+    "name": "田铁嘴",
+    "filename": "image_194.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A055",
+    "rarity": 1,
+    "name": "旭东",
+    "filename": "image_188.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A055",
+    "rarity": 3,
+    "name": "旭东",
+    "filename": "image_189.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A055",
+    "rarity": 2,
+    "name": "旭东",
+    "filename": "image_190.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A056",
+    "rarity": 1,
+    "name": "老章",
+    "filename": "image_192.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A056",
+    "rarity": 2,
+    "name": "老章",
+    "filename": "image_198.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A056",
+    "rarity": 3,
+    "name": "老章",
+    "filename": "image_199.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A057",
+    "rarity": 3,
+    "name": "弥生七月",
+    "filename": "image_180.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A057",
+    "rarity": 2,
+    "name": "弥生七月",
+    "filename": "image_183.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A057",
+    "rarity": 1,
+    "name": "弥生七月",
+    "filename": "image_187.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A058",
+    "rarity": 2,
+    "name": "参量质变仪",
+    "filename": "image_191.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A058",
+    "rarity": 1,
+    "name": "参量质变仪",
+    "filename": "image_193.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A059",
+    "rarity": 2,
+    "name": "寻宝仙灵",
+    "filename": "image_185.png"
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG01B-A059",
+    "rarity": 1,
+    "name": "寻宝仙灵",
+    "filename": "image_196.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A060",
+    "rarity": 1,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_211.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A060",
+    "rarity": 2,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_214.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A060",
+    "rarity": 3,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_203.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A061",
+    "rarity": 1,
+    "name": "元素共鸣：粉碎之冰",
+    "filename": "image_207.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A061",
+    "rarity": 2,
+    "name": "元素共鸣：粉碎之冰",
+    "filename": "image_200.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A061",
+    "rarity": 3,
+    "name": "元素共鸣：粉碎之冰",
+    "filename": "image_204.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A062",
+    "rarity": 1,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_212.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A062",
+    "rarity": 2,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_213.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A062",
+    "rarity": 3,
+    "name": "元素共鸣：交织之水",
+    "filename": "image_215.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A063",
+    "rarity": 1,
+    "name": "元素共鸣：愈疗之水",
+    "filename": "image_206.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A063",
+    "rarity": 2,
+    "name": "元素共鸣：愈疗之水",
+    "filename": "image_201.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A063",
+    "rarity": 3,
+    "name": "元素共鸣：愈疗之水",
+    "filename": "image_208.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A064",
+    "rarity": 1,
+    "name": "元素共鸣：交织之火",
+    "filename": "image_217.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A064",
+    "rarity": 2,
+    "name": "元素共鸣：交织之火",
+    "filename": "image_216.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A064",
+    "rarity": 3,
+    "name": "元素共鸣：交织之火",
+    "filename": "image_202.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A065",
+    "rarity": 1,
+    "name": "元素共鸣：热诚之火",
+    "filename": "image_209.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A065",
+    "rarity": 2,
+    "name": "元素共鸣：热诚之火",
+    "filename": "image_208.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A065",
+    "rarity": 3,
+    "name": "元素共鸣：热诚之火",
+    "filename": "image_205.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A066",
+    "rarity": 1,
+    "name": "元素共鸣：交织之雷",
+    "filename": "image_218.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A066",
+    "rarity": 2,
+    "name": "元素共鸣：交织之雷",
+    "filename": "image_210.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A066",
+    "rarity": 3,
+    "name": "元素共鸣：交织之雷",
+    "filename": "image_226.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A067",
+    "rarity": 1,
+    "name": "元素共鸣：强能之雷",
+    "filename": "image_229.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A067",
+    "rarity": 2,
+    "name": "元素共鸣：强能之雷",
+    "filename": "image_233.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A067",
+    "rarity": 3,
+    "name": "元素共鸣：强能之雷",
+    "filename": "image_238.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A068",
+    "rarity": 1,
+    "name": "元素共鸣：交织之风",
+    "filename": "image_235.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A068",
+    "rarity": 2,
+    "name": "元素共鸣：交织之风",
+    "filename": "image_224.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A068",
+    "rarity": 3,
+    "name": "元素共鸣：交织之风",
+    "filename": "image_227.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A069",
+    "rarity": 1,
+    "name": "元素共鸣：迅捷之风",
+    "filename": "image_223.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A069",
+    "rarity": 2,
+    "name": "元素共鸣：迅捷之风",
+    "filename": "image_237.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A069",
+    "rarity": 3,
+    "name": "元素共鸣：迅捷之风",
+    "filename": "image_219.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A070",
+    "rarity": 1,
+    "name": "元素共鸣：交织之岩",
+    "filename": "image_231.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A070",
+    "rarity": 2,
+    "name": "元素共鸣：交织之岩",
+    "filename": "image_230.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A070",
+    "rarity": 3,
+    "name": "元素共鸣：交织之岩",
+    "filename": "image_236.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A071",
+    "rarity": 1,
+    "name": "元素共鸣：坚定之岩",
+    "filename": "image_232.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A071",
+    "rarity": 2,
+    "name": "元素共鸣：坚定之岩",
+    "filename": "image_222.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A071",
+    "rarity": 3,
+    "name": "元素共鸣：坚定之岩",
+    "filename": "image_228.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A072",
+    "rarity": 1,
+    "name": "元素共鸣：交织之草",
+    "filename": "image_225.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A072",
+    "rarity": 2,
+    "name": "元素共鸣：交织之草",
+    "filename": "image_221.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A072",
+    "rarity": 3,
+    "name": "元素共鸣：交织之草",
+    "filename": "image_220.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A073",
+    "rarity": 1,
+    "name": "元素共鸣：蔓生之草",
+    "filename": "image_234.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A073",
+    "rarity": 2,
+    "name": "元素共鸣：蔓生之草",
+    "filename": "image_239.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A080",
+    "rarity": 1,
+    "name": "鹤归之时",
+    "filename": "image_240.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A081",
+    "rarity": 1,
+    "name": "星天之兆",
+    "filename": "image_241.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A076",
+    "rarity": 1,
+    "name": "一掷乾坤",
+    "filename": "image_242.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A079",
+    "rarity": 1,
+    "name": "交给我吧！",
+    "filename": "image_243.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A081",
+    "rarity": 2,
+    "name": "星天之兆",
+    "filename": "image_244.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A074",
+    "rarity": 2,
+    "name": "最好的伙伴！",
+    "filename": "image_245.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A073",
+    "rarity": 3,
+    "name": "元素共鸣：蔓生之草",
+    "filename": "image_246.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A077",
+    "rarity": 2,
+    "name": "运筹帷幄",
+    "filename": "image_247.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A074",
+    "rarity": 1,
+    "name": "最好的伙伴！",
+    "filename": "image_248.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A079",
+    "rarity": 2,
+    "name": "交给我吧！",
+    "filename": "image_249.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A078",
+    "rarity": 2,
+    "name": "本大爷还没有输！",
+    "filename": "image_250.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A078",
+    "rarity": 1,
+    "name": "本大爷还没有输！",
+    "filename": "image_251.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A080",
+    "rarity": 2,
+    "name": "鹤归之时",
+    "filename": "image_252.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A075",
+    "rarity": 2,
+    "name": "换班时间",
+    "filename": "image_253.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A077",
+    "rarity": 1,
+    "name": "运筹帷幄",
+    "filename": "image_254.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A082",
+    "rarity": 2,
+    "name": "白垩之术",
+    "filename": "image_255.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A075",
+    "rarity": 1,
+    "name": "换班时间",
+    "filename": "image_256.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A076",
+    "rarity": 2,
+    "name": "一掷乾坤",
+    "filename": "image_257.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A082",
+    "rarity": 1,
+    "name": "白垩之术",
+    "filename": "image_258.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A083",
+    "rarity": 1,
+    "name": "神宝迁宫祝词",
+    "filename": "image_273.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A083",
+    "rarity": 2,
+    "name": "神宝迁宫祝词",
+    "filename": "image_267.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A084",
+    "rarity": 1,
+    "name": "快快缝补术",
+    "filename": "image_265.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A084",
+    "rarity": 2,
+    "name": "快快缝补术",
+    "filename": "image_260.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A085",
+    "rarity": 1,
+    "name": "送你一程",
+    "filename": "image_264.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A085",
+    "rarity": 2,
+    "name": "送你一程",
+    "filename": "image_261.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A086",
+    "rarity": 1,
+    "name": "仙跳墙",
+    "filename": "image_274.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A086",
+    "rarity": 2,
+    "name": "仙跳墙",
+    "filename": "image_269.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A087",
+    "rarity": 1,
+    "name": "莲花酥",
+    "filename": "image_266.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A087",
+    "rarity": 2,
+    "name": "莲花酥",
+    "filename": "image_276.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A088",
+    "rarity": 1,
+    "name": "甜甜花酿鸡",
+    "filename": "image_263.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A088",
+    "rarity": 2,
+    "name": "甜甜花酿鸡",
+    "filename": "image_272.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A089",
+    "rarity": 1,
+    "name": "蒙德土豆饼",
+    "filename": "image_271.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A089",
+    "rarity": 2,
+    "name": "蒙德土豆饼",
+    "filename": "image_270.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A090",
+    "rarity": 1,
+    "name": "烤蘑菇披萨",
+    "filename": "image_268.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A090",
+    "rarity": 2,
+    "name": "烤蘑菇披萨",
+    "filename": "image_278.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A091",
+    "rarity": 1,
+    "name": "提瓦特煎蛋",
+    "filename": "image_277.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-A091",
+    "rarity": 2,
+    "name": "提瓦特煎蛋",
+    "filename": "image_275.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T001",
+    "rarity": 1,
+    "name": "水莲",
+    "filename": "image_259.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T002",
+    "rarity": 1,
+    "name": "水灵珠",
+    "filename": "image_262.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T004",
+    "rarity": 1,
+    "name": "冰元素附魔",
+    "filename": "image_279.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T020",
+    "rarity": 2,
+    "name": "蒲公英领域",
+    "filename": "image_280.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T003",
+    "rarity": 1,
+    "name": "重华叠霜领域",
+    "filename": "image_281.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T010",
+    "rarity": 2,
+    "name": "旋火轮",
+    "filename": "image_282.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T014",
+    "rarity": 2,
+    "name": "鸣煌护持",
+    "filename": "image_283.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T009",
+    "rarity": 2,
+    "name": "火元素附魔",
+    "filename": "image_284.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T022",
+    "rarity": 2,
+    "name": "护体岩铠",
+    "filename": "image_285.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T013",
+    "rarity": 2,
+    "name": "雷元素附魔",
+    "filename": "image_286.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T007",
+    "rarity": 1,
+    "name": "泡影",
+    "filename": "image_287.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T017",
+    "rarity": 1,
+    "name": "引雷",
+    "filename": "image_288.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T018",
+    "rarity": 2,
+    "name": "蔷薇雷光",
+    "filename": "image_289.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T019",
+    "rarity": 3,
+    "name": "大型风灵",
+    "filename": "image_290.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T015",
+    "rarity": 1,
+    "name": "天狗咒雷·伏",
+    "filename": "image_291.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T006",
+    "rarity": 2,
+    "name": "歌声之环",
+    "filename": "image_292.png"
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG01B-T012",
+    "rarity": 1,
+    "name": "雷楔",
+    "filename": "image_293.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T011",
+    "rarity": 2,
+    "name": "锅巴",
+    "filename": "image_294.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T005",
+    "rarity": 2,
+    "name": "霜见雪关",
+    "filename": "image_295.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T016",
+    "rarity": 2,
+    "name": "天狗咒雷·雷砕",
+    "filename": "image_296.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T008",
+    "rarity": 1,
+    "name": "虚影",
+    "filename": "image_297.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T021",
+    "rarity": 1,
+    "name": "璇玑屏",
+    "filename": "image_298.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T030",
+    "rarity": 2,
+    "name": "渊火加护",
+    "filename": "image_299.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T031",
+    "rarity": 1,
+    "name": "活化激能",
+    "filename": "image_300.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T029",
+    "rarity": 1,
+    "name": "火之新生",
+    "filename": "image_301.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T026",
+    "rarity": 1,
+    "name": "纯水幻形：蛙",
+    "filename": "image_302.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T023",
+    "rarity": 2,
+    "name": "大扫除",
+    "filename": "image_303.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T028",
+    "rarity": 2,
+    "name": "蹦火炉心",
+    "filename": "image_304.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T036",
+    "rarity": 1,
+    "name": "冻结",
+    "filename": "image_305.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T034",
+    "rarity": 1,
+    "name": "草原核",
+    "filename": "image_306.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T025",
+    "rarity": 3,
+    "name": "纯水幻形：飞鸢",
+    "filename": "image_307.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T033",
+    "rarity": 2,
+    "name": "激化领域",
+    "filename": "image_308.png"
+  },
+  {
+    "cardType": "Status",
+    "cardId": "GCG01B-T032",
+    "rarity": 1,
+    "name": "结晶",
+    "filename": "image_309.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T027",
+    "rarity": 2,
+    "name": "纯水幻形：花鼠",
+    "filename": "image_310.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T035",
+    "rarity": 1,
+    "name": "燃烧烈焰",
+    "filename": "image_311.png"
+  },
+  {
+    "cardType": "Summon",
+    "cardId": "GCG01B-T024",
+    "rarity": 2,
+    "name": "柯里安巴",
+    "filename": "image_312.png"
+  }
+]
