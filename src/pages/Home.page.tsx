@@ -1,8 +1,7 @@
 import TcgCard, { CARD_WIDTH } from "@/components/Card/Card";
+import cardsData from "@/assets/cards.json";
 import { GlobalLayout } from "@/layout/GlobalLayout";
 import { SimpleGrid } from "@mantine/core";
-
-const cards = Array.from({ length: 40 }, (_, index) => <TcgCard key={index} />);
 
 export function HomePage() {
   return (
@@ -12,12 +11,15 @@ export function HomePage() {
           base: CARD_WIDTH,
           sm: CARD_WIDTH * 2 + 16,
           lg: CARD_WIDTH * 3 + 32,
+          xl: CARD_WIDTH * 4 + 48,
         }}
         mx="auto"
-        cols={{ base: 1, sm: 2, lg: 3 }}
+        cols={{ base: 1, sm: 2, lg: 3, xl: 4 }}
         spacing="lg"
       >
-        {cards}
+        {cardsData.map((card) => (
+          <TcgCard key={card.cardId} card={card} />
+        ))}
       </SimpleGrid>
     </GlobalLayout>
   );
