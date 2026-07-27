@@ -1,0 +1,32 @@
+.typeInput {
+  position: relative;
+  font-weight: 500;
+  border-radius: 0;
+  width: 150px;
+  margin-right: -1px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background-color: transparent;
+  &:focus {
+    z-index: 1;
+    border-top: 1px solid var(--mantine-primary-color-filled);
+    border-bottom: 1px solid var(--mantine-primary-color-filled);
+  }
+}
+
+.setInput {
+  position: relative;
+  font-weight: 500;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 150px;
+  margin-right: -2px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background-color: transparent;
+  &:focus {
+    z-index: 1;
+    border-top: 1px solid var(--mantine-primary-color-filled);
+    border-bottom: 1px solid var(--mantine-primary-color-filled);
+  }
+}

@@ -1,17 +1,18 @@
-import { Card, Image, Text } from "@mantine/core";
+import { Card, Checkbox, Flex, Skeleton, Text } from "@mantine/core";
+import classes from "./Card.module.css";
+import { useAtomValue } from "jotai";
+import { cardSizeAtom } from "@/store/cards";
 
 export const CARD_WIDTH = 396;
 export const CARD_HEIGHT = 553;
 
-const SIZE_SCALE = {
+export const CARD_SIZE_SCALE = {
   xs: 0.5,
   sm: 0.75,
   md: 1,
-  lg: 1.25,
 } as const;
 
 type TcgCardProps = {
-  size?: "xs" | "sm" | "md" | "lg";
   card: {
     cardId: string;
     name: string;
@@ -19,31 +20,54 @@ type TcgCardProps = {
     rarity: number;
     set: number;
   };
+  hideOverlay?: boolean;
+  onClick?: () => void;
 };
 
-export default function TcgCard({ card, size = "md" }: TcgCardProps) {
+export default function TcgCard({ card, onClick }: TcgCardProps) {
+  const size = useAtomValue(cardSizeAtom);
   const normalizedFilename = card.filename.startsWith("cellImage_")
     ? card.filename
     : `cellImage_${card.filename}`;
   const imageUrl = `/_set${card.set}/${normalizedFilename}`;
-  const scale = SIZE_SCALE[size];
+  const scale = CARD_SIZE_SCALE[size];
   const width = CARD_WIDTH * scale;
   const height = CARD_HEIGHT * scale;
   const radius = 20 * scale;
 
   return (
     <Card
-      shadow="sm"
+      pos="relative"
+      shadow="md"
       radius={radius}
       w={width}
       h={height}
-      bg={`url("${imageUrl}") center/cover no-repeat`}
       p={0}
-      style={{ overflow: "hidden" }}
+      className={classes.card}
+      onClick={onClick}
     >
-      <Text pl="md" py={2} bg="rgba(0, 0, 0, 0.5)">
-        {card.name}
-      </Text>
+      <Skeleton w={width} h={height} radius={radius} visible />
+      <Flex
+        pos="absolute"
+        top={0}
+        left={0}
+        w="100%"
+        h="100%"
+        bg={`url("${imageUrl}") center/cover no-repeat`}
+      ></Flex>
+      <Flex
+        justify="space-between"
+        align="center"
+        px="sm"
+        py="xs"
+        style={{ zIndex: 1 }}
+        bg="rgba(0,0,0,0.7)"
+      >
+        <Text fw={600} size={size}>
+          {card.name}
+        </Text>
+        <Checkbox size={size} onChange={() => {}} />
+      </Flex>
     </Card>
   );
 }

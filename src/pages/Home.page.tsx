@@ -1,26 +1,34 @@
-import TcgCard, { CARD_WIDTH } from "@/components/Card/Card";
-import cardsData from "@/assets/tcgCards.json";
+import TcgCard, { CARD_SIZE_SCALE, CARD_WIDTH } from "@/components/Card/Card";
 import { GlobalLayout } from "@/layout/GlobalLayout";
-import { SimpleGrid } from "@mantine/core";
+import { cardSizeAtom, filteredCardsAtom } from "@/store/cards";
+import { Box, Divider, Flex, Slider } from "@mantine/core";
+import { useAtomValue } from "jotai";
+import { startTransition, useState } from "react";
 
 export function HomePage() {
+  const filteredCards = useAtomValue(filteredCardsAtom);
+  const size = useAtomValue(cardSizeAtom);
+  const cardWidth = CARD_WIDTH * CARD_SIZE_SCALE[size];
+
   return (
     <GlobalLayout>
-      <SimpleGrid
-        maw={{
-          base: CARD_WIDTH,
-          sm: CARD_WIDTH * 2 + 16,
-          lg: CARD_WIDTH * 3 + 32,
-          xl: CARD_WIDTH * 4 + 48,
+      <Box mx="auto">
+        <Flex pos="sticky" bg="red" h={40} align="center" gap="md"></Flex>
+        <Divider />
+      </Box>
+      <Box
+        my="md"
+        style={{
+          display: "grid",
+          gap: "16px",
+          gridTemplateColumns: `repeat(auto-fit, ${cardWidth}px)`,
+          justifyContent: "center",
         }}
-        mx="auto"
-        cols={{ base: 1, sm: 2, lg: 3, xl: 4 }}
-        spacing="lg"
       >
-        {cardsData.map((card) => (
-          <TcgCard key={card.cardId} card={card} />
+        {filteredCards.map((card) => (
+          <TcgCard key={card.cardId + "_" + card.rarity} card={card} />
         ))}
-      </SimpleGrid>
+      </Box>
     </GlobalLayout>
   );
 }
