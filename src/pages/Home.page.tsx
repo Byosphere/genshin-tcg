@@ -47,7 +47,7 @@ export function HomePage() {
       <Box
         my="md"
         mx="auto"
-        maw={1700}
+        maw={1800}
         style={{
           display: "grid",
           gap: "16px",

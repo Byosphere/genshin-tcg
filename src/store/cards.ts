@@ -4,6 +4,7 @@ import cardsData1 from "@/assets/cards_set_1.json";
 import cardsData2 from "@/assets/cards_set_2.json";
 import cardsData3 from "@/assets/cards_set_3.json";
 import cardsData4 from "@/assets/cards_set_4.json";
+import { atomWithStorage } from "jotai/utils";
 
 const cardsData = [...cardsData1, ...cardsData2, ...cardsData3, ...cardsData4];
 
@@ -37,7 +38,7 @@ export type CardFilters = {
 export const cardsAtom = atom<CardRecord[]>(cardsData as CardRecord[]);
 export const searchQueryAtom = atom("");
 export const cardSizeAtom = atom<"xs" | "sm" | "md">("xs");
-export const filtersAtom = atom<CardFilters>({
+export const filtersAtom = atomWithStorage<CardFilters>("card-filter", {
   cardType: "all",
   set: [],
   grouped: false,

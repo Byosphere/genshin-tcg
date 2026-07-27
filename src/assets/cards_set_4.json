@@ -2,7 +2,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C055",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Shenhe",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C055",
+    "rarity": 2,
+    "name": "Shenhe",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C055",
+    "rarity": 3,
+    "name": "Shenhe",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C055",
+    "rarity": 4,
     "name": "Shenhe",
     "type": "C",
     "set": 4
@@ -10,7 +34,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C056",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Layla",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C056",
+    "rarity": 2,
+    "name": "Layla",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C056",
+    "rarity": 3,
+    "name": "Layla",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C056",
+    "rarity": 4,
     "name": "Layla",
     "type": "C",
     "set": 4
@@ -18,7 +66,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C057",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Charlotte",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C057",
+    "rarity": 2,
+    "name": "Charlotte",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C057",
+    "rarity": 3,
+    "name": "Charlotte",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C057",
+    "rarity": 4,
     "name": "Charlotte",
     "type": "C",
     "set": 4
@@ -26,7 +98,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C058",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Nilou",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C058",
+    "rarity": 2,
+    "name": "Nilou",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C058",
+    "rarity": 3,
+    "name": "Nilou",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C058",
+    "rarity": 4,
     "name": "Nilou",
     "type": "C",
     "set": 4
@@ -34,7 +130,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C059",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Yelan",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C059",
+    "rarity": 2,
+    "name": "Yelan",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C059",
+    "rarity": 3,
+    "name": "Yelan",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C059",
+    "rarity": 4,
     "name": "Yelan",
     "type": "C",
     "set": 4
@@ -42,7 +162,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C060",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Bennett",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C060",
+    "rarity": 2,
+    "name": "Bennett",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C060",
+    "rarity": 3,
+    "name": "Bennett",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C060",
+    "rarity": 4,
     "name": "Bennett",
     "type": "C",
     "set": 4
@@ -50,7 +194,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C061",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Dehya",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C061",
+    "rarity": 2,
+    "name": "Dehya",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C061",
+    "rarity": 3,
+    "name": "Dehya",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C061",
+    "rarity": 4,
     "name": "Dehya",
     "type": "C",
     "set": 4
@@ -58,7 +226,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C062",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Fischl",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C062",
+    "rarity": 2,
+    "name": "Fischl",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C062",
+    "rarity": 3,
+    "name": "Fischl",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C062",
+    "rarity": 4,
     "name": "Fischl",
     "type": "C",
     "set": 4
@@ -66,7 +258,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C063",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Cyno",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C063",
+    "rarity": 2,
+    "name": "Cyno",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C063",
+    "rarity": 3,
+    "name": "Cyno",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C063",
+    "rarity": 4,
     "name": "Cyno",
     "type": "C",
     "set": 4
@@ -74,7 +290,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C064",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Wanderer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C064",
+    "rarity": 2,
+    "name": "Wanderer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C064",
+    "rarity": 3,
+    "name": "Wanderer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C064",
+    "rarity": 4,
     "name": "Wanderer",
     "type": "C",
     "set": 4
@@ -82,7 +322,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C065",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Xianyun",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C065",
+    "rarity": 2,
+    "name": "Xianyun",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C065",
+    "rarity": 3,
+    "name": "Xianyun",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C065",
+    "rarity": 4,
     "name": "Xianyun",
     "type": "C",
     "set": 4
@@ -90,7 +354,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C066",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Yun Jin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C066",
+    "rarity": 2,
+    "name": "Yun Jin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C066",
+    "rarity": 3,
+    "name": "Yun Jin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C066",
+    "rarity": 4,
     "name": "Yun Jin",
     "type": "C",
     "set": 4
@@ -98,7 +386,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C067",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Nahida",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C067",
+    "rarity": 2,
+    "name": "Nahida",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C067",
+    "rarity": 3,
+    "name": "Nahida",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C067",
+    "rarity": 4,
     "name": "Nahida",
     "type": "C",
     "set": 4
@@ -106,7 +418,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C068",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Hydro Hilichurl Rogue",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C068",
+    "rarity": 2,
+    "name": "Hydro Hilichurl Rogue",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C068",
+    "rarity": 3,
+    "name": "Hydro Hilichurl Rogue",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C068",
+    "rarity": 4,
     "name": "Hydro Hilichurl Rogue",
     "type": "C",
     "set": 4
@@ -114,7 +450,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C069",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Eremite Scorching Loremaster",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C069",
+    "rarity": 2,
+    "name": "Eremite Scorching Loremaster",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C069",
+    "rarity": 3,
+    "name": "Eremite Scorching Loremaster",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C069",
+    "rarity": 4,
     "name": "Eremite Scorching Loremaster",
     "type": "C",
     "set": 4
@@ -122,7 +482,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C070",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Fatui Electro Cicin Mage",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C070",
+    "rarity": 2,
+    "name": "Fatui Electro Cicin Mage",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C070",
+    "rarity": 3,
+    "name": "Fatui Electro Cicin Mage",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C070",
+    "rarity": 4,
     "name": "Fatui Electro Cicin Mage",
     "type": "C",
     "set": 4
@@ -130,7 +514,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C071",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Dvalin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C071",
+    "rarity": 2,
+    "name": "Dvalin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C071",
+    "rarity": 3,
+    "name": "Dvalin",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C071",
+    "rarity": 4,
     "name": "Dvalin",
     "type": "C",
     "set": 4
@@ -138,7 +546,31 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-C072",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Eremite Floral Ring-Dancer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C072",
+    "rarity": 2,
+    "name": "Eremite Floral Ring-Dancer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C072",
+    "rarity": 3,
+    "name": "Eremite Floral Ring-Dancer",
+    "type": "C",
+    "set": 4
+  },
+  {
+    "cardType": "Character",
+    "cardId": "GCG04B-C072",
+    "rarity": 4,
     "name": "Eremite Floral Ring-Dancer",
     "type": "C",
     "set": 4
@@ -146,7 +578,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A028",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Moonpiercer",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A028",
+    "rarity": 2,
     "name": "Moonpiercer",
     "type": "A",
     "set": 4
@@ -154,7 +594,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A035",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Shadow of the Sand King",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A035",
+    "rarity": 2,
     "name": "Shadow of the Sand King",
     "type": "A",
     "set": 4
@@ -162,7 +610,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A036",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Heart of Khvarena's Brilliance",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A036",
+    "rarity": 2,
     "name": "Heart of Khvarena's Brilliance",
     "type": "A",
     "set": 4
@@ -170,7 +626,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A051",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Chef Mao",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A051",
+    "rarity": 2,
+    "name": "Chef Mao",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A051",
+    "rarity": 3,
     "name": "Chef Mao",
     "type": "A",
     "set": 4
@@ -178,7 +650,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A055",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Xudong",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A055",
+    "rarity": 2,
+    "name": "Xudong",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A055",
+    "rarity": 3,
     "name": "Xudong",
     "type": "A",
     "set": 4
@@ -186,7 +674,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A057",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Yayoi Nanatsuki",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A057",
+    "rarity": 2,
+    "name": "Yayoi Nanatsuki",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A057",
+    "rarity": 3,
     "name": "Yayoi Nanatsuki",
     "type": "A",
     "set": 4
@@ -194,7 +698,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A058",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Parametric Transformer",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A058",
+    "rarity": 2,
     "name": "Parametric Transformer",
     "type": "A",
     "set": 4
@@ -202,7 +714,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A060",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Ice",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A060",
+    "rarity": 2,
+    "name": "Woven Ice",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A060",
+    "rarity": 3,
     "name": "Woven Ice",
     "type": "A",
     "set": 4
@@ -210,7 +738,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A061",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Shattering Ice",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A061",
+    "rarity": 2,
+    "name": "Shattering Ice",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A061",
+    "rarity": 3,
     "name": "Shattering Ice",
     "type": "A",
     "set": 4
@@ -218,7 +762,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A062",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Waters",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A062",
+    "rarity": 2,
+    "name": "Woven Waters",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A062",
+    "rarity": 3,
     "name": "Woven Waters",
     "type": "A",
     "set": 4
@@ -226,7 +786,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A063",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Soothing Water",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A063",
+    "rarity": 2,
+    "name": "Soothing Water",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A063",
+    "rarity": 3,
     "name": "Soothing Water",
     "type": "A",
     "set": 4
@@ -234,7 +810,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A064",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Flames",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A064",
+    "rarity": 2,
+    "name": "Woven Flames",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A064",
+    "rarity": 3,
     "name": "Woven Flames",
     "type": "A",
     "set": 4
@@ -242,7 +834,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A065",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Fervent Flames",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A065",
+    "rarity": 2,
+    "name": "Fervent Flames",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A065",
+    "rarity": 3,
     "name": "Fervent Flames",
     "type": "A",
     "set": 4
@@ -250,7 +858,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A066",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Thunder",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A066",
+    "rarity": 2,
+    "name": "Woven Thunder",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A066",
+    "rarity": 3,
     "name": "Woven Thunder",
     "type": "A",
     "set": 4
@@ -258,7 +882,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A067",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "High Voltage",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A067",
+    "rarity": 2,
+    "name": "High Voltage",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A067",
+    "rarity": 3,
     "name": "High Voltage",
     "type": "A",
     "set": 4
@@ -266,7 +906,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A068",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Winds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A068",
+    "rarity": 2,
+    "name": "Woven Winds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A068",
+    "rarity": 3,
     "name": "Woven Winds",
     "type": "A",
     "set": 4
@@ -274,7 +930,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A069",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Impetuous Winds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A069",
+    "rarity": 2,
+    "name": "Impetuous Winds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A069",
+    "rarity": 3,
     "name": "Impetuous Winds",
     "type": "A",
     "set": 4
@@ -282,7 +954,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A070",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Stone",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A070",
+    "rarity": 2,
+    "name": "Woven Stone",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A070",
+    "rarity": 3,
     "name": "Woven Stone",
     "type": "A",
     "set": 4
@@ -290,7 +978,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A071",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Enduring Rock",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A071",
+    "rarity": 2,
+    "name": "Enduring Rock",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A071",
+    "rarity": 3,
     "name": "Enduring Rock",
     "type": "A",
     "set": 4
@@ -298,7 +1002,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A072",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Woven Weeds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A072",
+    "rarity": 2,
+    "name": "Woven Weeds",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A072",
+    "rarity": 3,
     "name": "Woven Weeds",
     "type": "A",
     "set": 4
@@ -306,7 +1026,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A073",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Sprawling Greenery",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A073",
+    "rarity": 2,
+    "name": "Sprawling Greenery",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A073",
+    "rarity": 3,
     "name": "Sprawling Greenery",
     "type": "A",
     "set": 4
@@ -314,7 +1050,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A090",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Mushroom Pizza",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A090",
+    "rarity": 2,
     "name": "Mushroom Pizza",
     "type": "A",
     "set": 4
@@ -322,7 +1066,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A091",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Teyvat Fried Egg",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A091",
+    "rarity": 2,
     "name": "Teyvat Fried Egg",
     "type": "A",
     "set": 4
@@ -330,7 +1082,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A118",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "King's Squire",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A118",
+    "rarity": 2,
     "name": "King's Squire",
     "type": "A",
     "set": 4
@@ -338,7 +1098,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A133",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "General's Ancient Helm",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A133",
+    "rarity": 2,
     "name": "General's Ancient Helm",
     "type": "A",
     "set": 4
@@ -346,7 +1114,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A134",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Stormterror's Lair",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A134",
+    "rarity": 2,
     "name": "Stormterror's Lair",
     "type": "A",
     "set": 4
@@ -354,7 +1130,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A142",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Liu Su",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A142",
+    "rarity": 2,
+    "name": "Liu Su",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A142",
+    "rarity": 3,
     "name": "Liu Su",
     "type": "A",
     "set": 4
@@ -362,7 +1154,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A175",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Fruit of Fulfillment",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A175",
+    "rarity": 2,
     "name": "Fruit of Fulfillment",
     "type": "A",
     "set": 4
@@ -370,7 +1170,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A179",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Primordial Jade Winged-Spear",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A179",
+    "rarity": 2,
     "name": "Primordial Jade Winged-Spear",
     "type": "A",
     "set": 4
@@ -378,7 +1186,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A180",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Gambler's Earrings",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A180",
+    "rarity": 2,
     "name": "Gambler's Earrings",
     "type": "A",
     "set": 4
@@ -386,7 +1202,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A193",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Dunyarzad",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A193",
+    "rarity": 2,
+    "name": "Dunyarzad",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A193",
+    "rarity": 3,
     "name": "Dunyarzad",
     "type": "A",
     "set": 4
@@ -394,7 +1226,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A207",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Tandoori Roast Chicken",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A207",
+    "rarity": 2,
     "name": "Tandoori Roast Chicken",
     "type": "A",
     "set": 4
@@ -402,7 +1242,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A208",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Mystical Abandon",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A208",
+    "rarity": 2,
     "name": "Mystical Abandon",
     "type": "A",
     "set": 4
@@ -410,7 +1258,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A209",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Light's Remit",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A209",
+    "rarity": 2,
     "name": "Light's Remit",
     "type": "A",
     "set": 4
@@ -418,7 +1274,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A210",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "A Summation of Interest",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A210",
+    "rarity": 2,
     "name": "A Summation of Interest",
     "type": "A",
     "set": 4
@@ -426,7 +1290,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A211",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "The Starry Skies Their Flowers Rain",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A211",
+    "rarity": 2,
     "name": "The Starry Skies Their Flowers Rain",
     "type": "A",
     "set": 4
@@ -434,7 +1306,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A212",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Turn Control",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A212",
+    "rarity": 2,
     "name": "Turn Control",
     "type": "A",
     "set": 4
@@ -442,7 +1322,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A213",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Grand Expectation",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A213",
+    "rarity": 2,
     "name": "Grand Expectation",
     "type": "A",
     "set": 4
@@ -450,7 +1338,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A214",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Stalwart and True",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A214",
+    "rarity": 2,
     "name": "Stalwart and True",
     "type": "A",
     "set": 4
@@ -458,7 +1354,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A215",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Stellar Predator",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A215",
+    "rarity": 2,
     "name": "Stellar Predator",
     "type": "A",
     "set": 4
@@ -466,7 +1370,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A216",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Featherfall Judgment",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A216",
+    "rarity": 2,
     "name": "Featherfall Judgment",
     "type": "A",
     "set": 4
@@ -474,7 +1386,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A217",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Gales of Reverie",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A217",
+    "rarity": 2,
     "name": "Gales of Reverie",
     "type": "A",
     "set": 4
@@ -482,7 +1402,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A218",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "They Call Her Cloud Retainer",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A218",
+    "rarity": 2,
     "name": "They Call Her Cloud Retainer",
     "type": "A",
     "set": 4
@@ -490,7 +1418,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A219",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Decorous Harmony",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A219",
+    "rarity": 2,
     "name": "Decorous Harmony",
     "type": "A",
     "set": 4
@@ -498,7 +1434,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A220",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "The Seed of Stored Knowledge",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A220",
+    "rarity": 2,
     "name": "The Seed of Stored Knowledge",
     "type": "A",
     "set": 4
@@ -506,7 +1450,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A221",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Featherweight Foam",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A221",
+    "rarity": 2,
     "name": "Featherweight Foam",
     "type": "A",
     "set": 4
@@ -514,7 +1466,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A222",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Scorpocalypse",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A222",
+    "rarity": 2,
     "name": "Scorpocalypse",
     "type": "A",
     "set": 4
@@ -522,7 +1482,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A223",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Electro Cicin's Gleam",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A223",
+    "rarity": 2,
     "name": "Electro Cicin's Gleam",
     "type": "A",
     "set": 4
@@ -530,7 +1498,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A224",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Rending Vortex",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A224",
+    "rarity": 2,
     "name": "Rending Vortex",
     "type": "A",
     "set": 4
@@ -538,7 +1514,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A225",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Spirit Serpent's Swirl",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A225",
+    "rarity": 2,
     "name": "Spirit Serpent's Swirl",
     "type": "A",
     "set": 4
@@ -546,7 +1530,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A226",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "A Thousand Floating Dreams",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A226",
+    "rarity": 2,
     "name": "A Thousand Floating Dreams",
     "type": "A",
     "set": 4
@@ -554,7 +1546,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A227",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Tulaytullah's Remembrance",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A227",
+    "rarity": 2,
     "name": "Tulaytullah's Remembrance",
     "type": "A",
     "set": 4
@@ -562,7 +1562,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A228",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Forest Regalia",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A228",
+    "rarity": 2,
     "name": "Forest Regalia",
     "type": "A",
     "set": 4
@@ -570,7 +1578,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A229",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Sapwood Blade",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A229",
+    "rarity": 2,
     "name": "Sapwood Blade",
     "type": "A",
     "set": 4
@@ -578,7 +1594,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A230",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Tenacity of the Millelith",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A230",
+    "rarity": 2,
     "name": "Tenacity of the Millelith",
     "type": "A",
     "set": 4
@@ -586,7 +1610,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A231",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Gilded Dreams",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A231",
+    "rarity": 2,
     "name": "Gilded Dreams",
     "type": "A",
     "set": 4
@@ -594,7 +1626,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A232",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Flowing Rings",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A232",
+    "rarity": 2,
     "name": "Flowing Rings",
     "type": "A",
     "set": 4
@@ -602,7 +1642,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A233",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Golden Troupe's Reward",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A233",
+    "rarity": 2,
     "name": "Golden Troupe's Reward",
     "type": "A",
     "set": 4
@@ -610,7 +1658,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A234",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Amethyst Crown",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A234",
+    "rarity": 2,
     "name": "Amethyst Crown",
     "type": "A",
     "set": 4
@@ -618,7 +1674,15 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A235",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Flower of Paradise Lost",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A235",
+    "rarity": 2,
     "name": "Flower of Paradise Lost",
     "type": "A",
     "set": 4
@@ -626,7 +1690,23 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A236",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Xenochromatic Hunter's Ray",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A236",
+    "rarity": 2,
+    "name": "Xenochromatic Hunter's Ray",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A236",
+    "rarity": 3,
     "name": "Xenochromatic Hunter's Ray",
     "type": "A",
     "set": 4
@@ -634,7 +1714,23 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A237",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Koholasaurus",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A237",
+    "rarity": 2,
+    "name": "Koholasaurus",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A237",
+    "rarity": 3,
     "name": "Koholasaurus",
     "type": "A",
     "set": 4
@@ -642,7 +1738,23 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-A238",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Waverider",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A238",
+    "rarity": 2,
+    "name": "Waverider",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Equipment",
+    "cardId": "GCG04B-A238",
+    "rarity": 3,
     "name": "Waverider",
     "type": "A",
     "set": 4
@@ -650,7 +1762,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A239",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Chinju Forest",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A239",
+    "rarity": 2,
     "name": "Chinju Forest",
     "type": "A",
     "set": 4
@@ -658,7 +1778,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A240",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Gandharva Ville",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A240",
+    "rarity": 2,
     "name": "Gandharva Ville",
     "type": "A",
     "set": 4
@@ -666,7 +1794,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A241",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Weeping Willow of the Lake",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A241",
+    "rarity": 2,
     "name": "Weeping Willow of the Lake",
     "type": "A",
     "set": 4
@@ -674,7 +1810,15 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A242",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Stadium of the Sacred Flame",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A242",
+    "rarity": 2,
     "name": "Stadium of the Sacred Flame",
     "type": "A",
     "set": 4
@@ -682,7 +1826,23 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A243",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Setaria",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A243",
+    "rarity": 2,
+    "name": "Setaria",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A243",
+    "rarity": 3,
     "name": "Setaria",
     "type": "A",
     "set": 4
@@ -690,39 +1850,111 @@
   {
     "cardType": "Support",
     "cardId": "GCG04B-A244",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Jeht",
     "type": "A",
     "set": 4
   },
   {
-    "cardType": "Support/Item",
+    "cardType": "Support",
+    "cardId": "GCG04B-A244",
+    "rarity": 2,
+    "name": "Jeht",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
+    "cardId": "GCG04B-A244",
+    "rarity": 3,
+    "name": "Jeht",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Support",
     "cardId": "GCG04B-A245",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Memento Lens",
     "type": "A",
     "set": 4
   },
   {
-    "cardType": "Event/Arcane",
+    "cardType": "Support",
+    "cardId": "GCG04B-A245",
+    "rarity": 2,
+    "name": "Memento Lens",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
     "cardId": "GCG04B-A246",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Fresh Wind of Freedom",
     "type": "A",
     "set": 4
   },
   {
-    "cardType": "Event/Arcane",
+    "cardType": "Event",
+    "cardId": "GCG04B-A246",
+    "rarity": 2,
+    "name": "Fresh Wind of Freedom",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A246",
+    "rarity": 3,
+    "name": "Fresh Wind of Freedom",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
     "cardId": "GCG04B-A247",
-    "rarity": 0,
+    "rarity": 1,
     "name": "In Every House a Stove",
     "type": "A",
     "set": 4
   },
   {
-    "cardType": "Event/Arcane",
+    "cardType": "Event",
+    "cardId": "GCG04B-A247",
+    "rarity": 2,
+    "name": "In Every House a Stove",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A247",
+    "rarity": 3,
+    "name": "In Every House a Stove",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
     "cardId": "GCG04B-A248",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Day of Resistance: Moment of Shattered Dreams",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A248",
+    "rarity": 2,
+    "name": "Day of Resistance: Moment of Shattered Dreams",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A248",
+    "rarity": 3,
     "name": "Day of Resistance: Moment of Shattered Dreams",
     "type": "A",
     "set": 4
@@ -730,7 +1962,23 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A249",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Nature and Wisdom",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A249",
+    "rarity": 2,
+    "name": "Nature and Wisdom",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A249",
+    "rarity": 3,
     "name": "Nature and Wisdom",
     "type": "A",
     "set": 4
@@ -738,7 +1986,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A250",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Lyresong",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A250",
+    "rarity": 2,
     "name": "Lyresong",
     "type": "A",
     "set": 4
@@ -746,7 +2002,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A251",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Falls and Fortune",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A251",
+    "rarity": 2,
     "name": "Falls and Fortune",
     "type": "A",
     "set": 4
@@ -754,7 +2018,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A252",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Flickering Four-Leaf Sigil",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A252",
+    "rarity": 2,
     "name": "Flickering Four-Leaf Sigil",
     "type": "A",
     "set": 4
@@ -762,7 +2034,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A253",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Butter Crab",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A253",
+    "rarity": 2,
     "name": "Butter Crab",
     "type": "A",
     "set": 4
@@ -770,7 +2050,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A254",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Fish and Chips",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A254",
+    "rarity": 2,
     "name": "Fish and Chips",
     "type": "A",
     "set": 4
@@ -778,7 +2066,15 @@
   {
     "cardType": "Event",
     "cardId": "GCG04B-A255",
-    "rarity": 0,
+    "rarity": 1,
+    "name": "Saurus Crackers",
+    "type": "A",
+    "set": 4
+  },
+  {
+    "cardType": "Event",
+    "cardId": "GCG04B-A255",
+    "rarity": 2,
     "name": "Saurus Crackers",
     "type": "A",
     "set": 4
@@ -786,7 +2082,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T032",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Crystallize",
     "type": "T",
     "set": 4
@@ -794,7 +2090,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T033",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Catalyzing Field",
     "type": "T",
     "set": 4
@@ -802,7 +2098,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T034",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Dendro Core",
     "type": "T",
     "set": 4
@@ -810,7 +2106,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T035",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Burning Flame",
     "type": "T",
     "set": 4
@@ -818,7 +2114,7 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-T036",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Frozen",
     "type": "T",
     "set": 4
@@ -826,7 +2122,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T111",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Icy Quill",
     "type": "T",
     "set": 4
@@ -834,7 +2130,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T112",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Talisman Spirit",
     "type": "T",
     "set": 4
@@ -842,7 +2138,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T113",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Curtain of Slumber",
     "type": "T",
     "set": 4
@@ -850,7 +2146,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T114",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Shooting Star",
     "type": "T",
     "set": 4
@@ -858,7 +2154,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T115",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Celestial Dreamsphere",
     "type": "T",
     "set": 4
@@ -866,7 +2162,7 @@
   {
     "cardType": "Character",
     "cardId": "GCG04B-T116",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Snappy Silhouette",
     "type": "T",
     "set": 4
@@ -874,7 +2170,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T117",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Newsflash Field",
     "type": "T",
     "set": 4
@@ -882,7 +2178,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T118",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Golden Chalice's Bounty",
     "type": "T",
     "set": 4
@@ -890,7 +2186,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T119",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Bountiful Core",
     "type": "T",
     "set": 4
@@ -898,7 +2194,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T120",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Lingering Aeon",
     "type": "T",
     "set": 4
@@ -906,7 +2202,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T121",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Breakthrough",
     "type": "T",
     "set": 4
@@ -914,7 +2210,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T122",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Exquisite Throw",
     "type": "T",
     "set": 4
@@ -922,7 +2218,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T123",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Inspiration Field",
     "type": "T",
     "set": 4
@@ -930,7 +2226,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T124",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Fiery Sanctum Field",
     "type": "T",
     "set": 4
@@ -938,7 +2234,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T125",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Incineration Drive",
     "type": "T",
     "set": 4
@@ -946,7 +2242,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T126",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Oz",
     "type": "T",
     "set": 4
@@ -954,7 +2250,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T127",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Pactsworn Pathclearer",
     "type": "T",
     "set": 4
@@ -962,7 +2258,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T128",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Windfavored",
     "type": "T",
     "set": 4
@@ -970,7 +2266,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T129",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Skyladder",
     "type": "T",
     "set": 4
@@ -978,7 +2274,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T130",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Driftcloud Wave",
     "type": "T",
     "set": 4
@@ -986,7 +2282,7 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-T131",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Starwicker",
     "type": "T",
     "set": 4
@@ -994,7 +2290,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T132",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Flying Cloud Flag Formation",
     "type": "T",
     "set": 4
@@ -1002,7 +2298,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T133",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Shield of Swirling Clouds",
     "type": "T",
     "set": 4
@@ -1010,7 +2306,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T134",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Spear Flourish",
     "type": "T",
     "set": 4
@@ -1018,7 +2314,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T135",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Seed of Skandha",
     "type": "T",
     "set": 4
@@ -1026,7 +2322,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T136",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Shine of Maya",
     "type": "T",
     "set": 4
@@ -1034,7 +2330,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T137",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Bubblefloat Blitz",
     "type": "T",
     "set": 4
@@ -1042,7 +2338,7 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-T138",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Mist Bubble Slime",
     "type": "T",
     "set": 4
@@ -1050,7 +2346,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T139",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Scorpion Blessing",
     "type": "T",
     "set": 4
@@ -1058,7 +2354,7 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-T140",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Spirit of Omen: Pyro Scorpion",
     "type": "T",
     "set": 4
@@ -1066,7 +2362,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG04B-T141",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Electro Cicin",
     "type": "T",
     "set": 4
@@ -1074,7 +2370,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T142",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Electro Cicin Shield",
     "type": "T",
     "set": 4
@@ -1082,7 +2378,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T143",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Surging Thunder",
     "type": "T",
     "set": 4
@@ -1090,7 +2386,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T144",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Perpetual Cleansing",
     "type": "T",
     "set": 4
@@ -1098,7 +2394,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T145",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Ultimate Cleansing",
     "type": "T",
     "set": 4
@@ -1106,7 +2402,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T146",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Total Collapse",
     "type": "T",
     "set": 4
@@ -1114,7 +2410,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG04B-T147",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Spirit-Serpent's Blessing",
     "type": "T",
     "set": 4
@@ -1122,7 +2418,7 @@
   {
     "cardType": "Equipment",
     "cardId": "GCG04B-T148",
-    "rarity": 0,
+    "rarity": 1,
     "name": "Spirit of Omen: Dendro Spirit-Serpent",
     "type": "T",
     "set": 4
