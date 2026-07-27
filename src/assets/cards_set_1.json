@@ -2258,7 +2258,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T005",
-    "rarity": 2,
+    "rarity": 1,
     "name": "霜见雪关",
     "type": "T",
     "set": 1
@@ -2266,7 +2266,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T006",
-    "rarity": 2,
+    "rarity": 1,
     "name": "歌声之环",
     "type": "T",
     "set": 1
@@ -2290,7 +2290,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T009",
-    "rarity": 2,
+    "rarity": 1,
     "name": "火元素附魔",
     "type": "T",
     "set": 1
@@ -2298,7 +2298,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T010",
-    "rarity": 2,
+    "rarity": 1,
     "name": "旋火轮",
     "type": "T",
     "set": 1
@@ -2306,7 +2306,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T011",
-    "rarity": 2,
+    "rarity": 1,
     "name": "锅巴",
     "type": "T",
     "set": 1
@@ -2322,7 +2322,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T013",
-    "rarity": 2,
+    "rarity": 1,
     "name": "雷元素附魔",
     "type": "T",
     "set": 1
@@ -2330,7 +2330,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T014",
-    "rarity": 2,
+    "rarity": 1,
     "name": "鸣煌护持",
     "type": "T",
     "set": 1
@@ -2346,7 +2346,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T016",
-    "rarity": 2,
+    "rarity": 1,
     "name": "天狗咒雷·雷砕",
     "type": "T",
     "set": 1
@@ -2362,7 +2362,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T018",
-    "rarity": 2,
+    "rarity": 1,
     "name": "蔷薇雷光",
     "type": "T",
     "set": 1
@@ -2370,7 +2370,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T019",
-    "rarity": 3,
+    "rarity": 1,
     "name": "大型风灵",
     "type": "T",
     "set": 1
@@ -2378,7 +2378,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T020",
-    "rarity": 2,
+    "rarity": 1,
     "name": "蒲公英领域",
     "type": "T",
     "set": 1
@@ -2394,7 +2394,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T022",
-    "rarity": 2,
+    "rarity": 1,
     "name": "护体岩铠",
     "type": "T",
     "set": 1
@@ -2402,7 +2402,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T023",
-    "rarity": 2,
+    "rarity": 1,
     "name": "大扫除",
     "type": "T",
     "set": 1
@@ -2410,7 +2410,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T024",
-    "rarity": 2,
+    "rarity": 1,
     "name": "柯里安巴",
     "type": "T",
     "set": 1
@@ -2418,7 +2418,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T025",
-    "rarity": 3,
+    "rarity": 1,
     "name": "纯水幻形：飞鸢",
     "type": "T",
     "set": 1
@@ -2434,7 +2434,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T027",
-    "rarity": 2,
+    "rarity": 1,
     "name": "纯水幻形：花鼠",
     "type": "T",
     "set": 1
@@ -2442,7 +2442,7 @@
   {
     "cardType": "Summon",
     "cardId": "GCG01B-T028",
-    "rarity": 2,
+    "rarity": 1,
     "name": "蹦火炉心",
     "type": "T",
     "set": 1
@@ -2458,7 +2458,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T030",
-    "rarity": 2,
+    "rarity": 1,
     "name": "渊火加护",
     "type": "T",
     "set": 1
@@ -2482,7 +2482,7 @@
   {
     "cardType": "Status",
     "cardId": "GCG01B-T033",
-    "rarity": 2,
+    "rarity": 1,
     "name": "激化领域",
     "type": "T",
     "set": 1
