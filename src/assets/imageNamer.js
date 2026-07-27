@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
-import cards from "./cards_set_2.json" with { type: "json" };
+import cards from "./cards_set_3.json" with { type: "json" };
 
-const dir = path.join(process.cwd(), "public", "_set2");
+const dir = path.join(process.cwd(), "public", "_set3");
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 
 if (!fs.existsSync(dir)) {
@@ -38,17 +38,14 @@ for (const card of cards) {
 
   usedNames.add(targetName);
 
-  if (targetName !== originalName) {
-    const targetPath = path.join(dir, targetName);
-    fs.renameSync(sourcePath, targetPath);
-    delete card.filename;
-    renamedCount += 1;
-  }
+  const targetPath = path.join(dir, targetName);
+  fs.renameSync(sourcePath, targetPath);
+  renamedCount += 1;
 }
 
-fs.writeFileSync(
-  path.join(process.cwd(), "src/assets/cards_set_2.json"),
-  JSON.stringify(cards, null, 2) + "\n",
-);
+// fs.writeFileSync(
+//   path.join(process.cwd(), "src/assets/cards_set_2.json"),
+//   JSON.stringify(cards, null, 2) + "\n",
+// );
 
-console.log(`Renamed ${renamedCount} image files in public/_set2.`);
+console.log(`Renamed ${renamedCount} image files in public/_set3.`);

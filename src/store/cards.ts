@@ -1,9 +1,10 @@
 import { atom } from "jotai";
-import { atomWithStorage } from "jotai/utils";
+
 import cardsData1 from "@/assets/cards_set_1.json";
 import cardsData2 from "@/assets/cards_set_2.json";
+import cardsData3 from "@/assets/cards_set_3.json";
 
-const cardsData = [...cardsData1, ...cardsData2];
+const cardsData = [...cardsData1, ...cardsData2, ...cardsData3];
 
 export enum CardType {
   Character = "Character",

@@ -1,11 +1,11 @@
 // import cards from "./cards_1.json" with { type: "json" };
 // import cards from "./tcgCards.json" with { type: "json" };
 // import cards from "./cards_2.json" with { type: "json" };
-import cards from "./cards_set_1.json" with { type: "json" };
+import cards from "./cards_set_3.json" with { type: "json" };
 import fs from "fs";
 import path from "path";
 
-const dir = path.join(process.cwd(), "public", "_set1");
+const dir = path.join(process.cwd(), "public", "_set3");
 const files = fs
   .readdirSync(dir)
   .filter((f) => /\.(jpg|jpeg|png|webp|avif)$/i.test(f))
@@ -41,12 +41,8 @@ entries.sort((a, b) => {
   return a.rarity - b.rarity;
 });
 
-entries.forEach((entry, index) => {
-  entry.filename = files[index] || "unknown";
-});
-
 fs.writeFileSync(
-  path.join(process.cwd(), "src/assets/cards_set_1.json"),
+  path.join(process.cwd(), "src/assets/cards_set_3.json"),
   JSON.stringify(entries, null, 2) + "\n",
 );
 
