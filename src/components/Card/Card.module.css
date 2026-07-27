@@ -1,7 +1,9 @@
 .card {
   cursor: pointer;
+  border: 3px solid transparent;
+  overflow: hidden;
   &:hover {
-    transform: scale(1.02);
-    transition: transform 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    border: 3px solid var(--mantine-primary-color-filled);
   }
 }

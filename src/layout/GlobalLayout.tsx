@@ -14,7 +14,7 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
         breakpoint: "sm",
         collapsed: { desktop: true, mobile: !opened },
       }}
-      padding="md"
+      padding={0}
     >
       <Header opened={opened} toggle={toggle} />
       <AppShell.Navbar py="md" px={4}>

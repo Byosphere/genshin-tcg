@@ -1,10 +1,10 @@
-import { Card, Checkbox, Flex, Skeleton, Text } from "@mantine/core";
+import { Box, Card, Checkbox, Flex, Skeleton, Text } from "@mantine/core";
 import classes from "./Card.module.css";
 import { useAtomValue } from "jotai";
-import { cardSizeAtom } from "@/store/cards";
+import { CardRecord, cardSizeAtom } from "@/store/cards";
 
-export const CARD_WIDTH = 396;
-export const CARD_HEIGHT = 553;
+export const CARD_WIDTH = 400;
+export const CARD_HEIGHT = 560;
 
 export const CARD_SIZE_SCALE = {
   xs: 0.5,
@@ -13,24 +13,22 @@ export const CARD_SIZE_SCALE = {
 } as const;
 
 type TcgCardProps = {
-  card: {
-    cardId: string;
-    name: string;
-    rarity: number;
-    set: number;
-  };
+  card: CardRecord;
   hideOverlay?: boolean;
   onClick?: () => void;
 };
 
 export default function TcgCard({ card, onClick }: TcgCardProps) {
   const size = useAtomValue(cardSizeAtom);
-  const rarity = card.rarity > 1 ? "_" + card.rarity : "";
-  const imageUrl = `/_set${card.set}/${card.cardId}${rarity}.jpg`;
   const scale = CARD_SIZE_SCALE[size];
   const width = CARD_WIDTH * scale;
   const height = CARD_HEIGHT * scale;
   const radius = 20 * scale;
+
+  function getImgUrl(c: CardRecord) {
+    const rarity = c.rarity > 1 ? "_" + c.rarity : "";
+    return `/_set${c.set}/${c.cardId}${rarity}.jpg`;
+  }
 
   return (
     <Card
@@ -50,8 +48,8 @@ export default function TcgCard({ card, onClick }: TcgCardProps) {
         left={0}
         w="100%"
         h="100%"
-        bg={`url("${imageUrl}") center/cover no-repeat`}
-      ></Flex>
+        bg={`url("${getImgUrl(card)}") center/cover no-repeat`}
+      />
       <Flex
         justify="space-between"
         align="center"

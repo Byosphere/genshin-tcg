@@ -23,10 +23,7 @@ export type CardRecord = {
   set: number;
   cardType: CardType;
   type: string;
-};
-
-export type GroupedCardRecord = CardRecord & {
-  grouped: CardRecord[];
+  grouped?: CardRecord[];
 };
 
 export type CardFilters = {
@@ -37,12 +34,14 @@ export type CardFilters = {
 
 export const cardsAtom = atom<CardRecord[]>(cardsData as CardRecord[]);
 export const searchQueryAtom = atom("");
-export const cardSizeAtom = atom<"xs" | "sm" | "md">("md");
-export const filtersAtom = atomWithStorage<CardFilters>("genshin-tcg-filters", {
+export const cardSizeAtom = atom<"xs" | "sm" | "md">("xs");
+export const filtersAtom = atom<CardFilters>({
   cardType: "all",
   set: [],
   grouped: false,
 });
+export const currentPageAtom = atom(1);
+export const cardsPerPageAtom = atom(80);
 
 export const filteredCardsAtom = atom((get) => {
   const cards = get(cardsAtom);
@@ -71,21 +70,38 @@ export const filteredGroupedCardsAtom = atom((get) => {
   return groupCardsByID(filtered);
 });
 
+export const totalPagesAtom = atom((get) => {
+  const cards = get(filteredCardsAtom);
+  const cardsPerPage = get(cardsPerPageAtom);
+  return Math.ceil(cards.length / cardsPerPage) || 1;
+});
+
+export const paginatedCardsAtom = atom((get) => {
+  const cards = get(filteredCardsAtom);
+  const currentPage = get(currentPageAtom);
+  const cardsPerPage = get(cardsPerPageAtom);
+
+  const startIndex = (currentPage - 1) * cardsPerPage;
+  const endIndex = startIndex + cardsPerPage;
+
+  return cards.slice(startIndex, endIndex);
+});
+
 function normalizeSearchValue(value: string) {
   return value.trim().toLowerCase();
 }
 
-function groupCardsByID(cards: CardRecord[]): GroupedCardRecord[] {
+function groupCardsByID(cards: CardRecord[]): CardRecord[] {
   return Object.values(
     cards.reduce(
       (acc, card) => {
         if (!acc[card.cardId]) {
           acc[card.cardId] = { ...card, grouped: [] };
         }
-        acc[card.cardId].grouped.push(card);
+        acc[card.cardId].grouped?.push(card);
         return acc;
       },
-      {} as Record<string, GroupedCardRecord>,
+      {} as Record<string, CardRecord>,
     ),
   );
 }

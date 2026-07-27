@@ -73,7 +73,7 @@ export default function Header({
         <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
         <Group gap="sm" justify="space-between" align="center" flex={1}>
           <Flex w={140}>
-            <Image src="public/genshin_title.png" alt="Logo" height={40} />
+            <Image src="genshin_title.png" alt="Logo" height={40} />
           </Flex>
           <Title order={4} mr="md">
             TCG progress tracker
