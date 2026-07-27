@@ -1,4 +1,5 @@
 import { atom } from "jotai";
+import { atomWithStorage } from "jotai/utils";
 import cardsData1 from "@/assets/cards_set_1.json";
 import cardsData2 from "@/assets/cards_set_2.json";
 
@@ -37,7 +38,7 @@ export type CardFilters = {
 export const cardsAtom = atom<CardRecord[]>(cardsData as CardRecord[]);
 export const searchQueryAtom = atom("");
 export const cardSizeAtom = atom<"xs" | "sm" | "md">("md");
-export const filtersAtom = atom<CardFilters>({
+export const filtersAtom = atomWithStorage<CardFilters>("genshin-tcg-filters", {
   cardType: "all",
   set: [],
   grouped: false,

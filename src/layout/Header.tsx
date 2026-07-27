@@ -19,10 +19,13 @@ import {
   Title,
   Text,
   Tooltip,
+  SegmentedControl,
+  Center,
 } from "@mantine/core";
 import {
   DiamondIcon,
   MagnifyingGlassIcon,
+  SquareIcon,
   StackIcon,
 } from "@phosphor-icons/react";
 import { useAtom } from "jotai";
@@ -58,13 +61,9 @@ export default function Header({
     setSearchQuery(value);
   }, 300);
 
-  const handleSizeChange = (value: number) => {
-    const sizeKeys = Object.keys(
-      CARD_SIZE_SCALE,
-    ) as (keyof typeof CARD_SIZE_SCALE)[];
-
+  const handleSizeChange = (value: "xs" | "sm" | "md") => {
     startTransition(() => {
-      setSize(sizeKeys[value]);
+      setSize(value);
     });
   };
 
@@ -137,7 +136,6 @@ export default function Header({
             withArrow
           >
             <ActionIcon
-              mr="sm"
               size="input-sm"
               variant={filters.grouped ? "filled" : "default"}
               onClick={() =>
@@ -151,11 +149,54 @@ export default function Header({
               )}
             </ActionIcon>
           </Tooltip>
-          <Box>
-            <Text size="xs" mb={2}>
-              Card size
-            </Text>
-            <Slider
+
+          <SegmentedControl
+            style={{ border: "1px solid var(--mantine-color-default-border)" }}
+            value={size}
+            onChange={handleSizeChange}
+            data={[
+              {
+                value: "xs",
+                label: (
+                  <Center w={20} h={20}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{ border: "1px solid white", borderRadius: "1px" }}
+                      w={10}
+                      h={12}
+                    />
+                  </Center>
+                ),
+              },
+              {
+                value: "sm",
+                label: (
+                  <Center w={20} h={20}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{ border: "1px solid white", borderRadius: "1px" }}
+                      w={12}
+                      h={16}
+                    />
+                  </Center>
+                ),
+              },
+              {
+                value: "md",
+                label: (
+                  <Center w={20} h={20}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{ border: "1px solid white", borderRadius: "1px" }}
+                      w={15}
+                      h={18}
+                    />
+                  </Center>
+                ),
+              },
+            ]}
+          />
+          {/* <Slider
               size="sm"
               value={Object.keys(CARD_SIZE_SCALE).indexOf(size)}
               onChange={handleSizeChange}
@@ -170,7 +211,7 @@ export default function Header({
               }))}
               styles={{ markLabel: { display: "none" } }}
             />
-          </Box>
+          </Box> */}
         </Group>
       </Group>
     </AppShell.Header>

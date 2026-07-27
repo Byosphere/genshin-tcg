@@ -64,7 +64,7 @@ export default function TcgCard({ card, onClick }: TcgCardProps) {
         bg="rgba(0,0,0,0.7)"
       >
         <Text fw={600} size={size}>
-          {card.name}
+          {card.name} - {card.cardId.split("-")[1]}
         </Text>
         <Checkbox size={size} onChange={() => {}} />
       </Flex>

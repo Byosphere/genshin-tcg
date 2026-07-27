@@ -1,9 +1,8 @@
 import TcgCard, { CARD_SIZE_SCALE, CARD_WIDTH } from "@/components/Card/Card";
 import { GlobalLayout } from "@/layout/GlobalLayout";
 import { cardSizeAtom, filteredCardsAtom } from "@/store/cards";
-import { Box, Divider, Flex, Slider } from "@mantine/core";
+import { Box, Divider, Flex } from "@mantine/core";
 import { useAtomValue } from "jotai";
-import { startTransition, useState } from "react";
 
 export function HomePage() {
   const filteredCards = useAtomValue(filteredCardsAtom);
@@ -18,6 +17,8 @@ export function HomePage() {
       </Box>
       <Box
         my="md"
+        mx="auto"
+        maw={1700}
         style={{
           display: "grid",
           gap: "16px",

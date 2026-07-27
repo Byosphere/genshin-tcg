@@ -1,11 +1,11 @@
 // import cards from "./cards_1.json" with { type: "json" };
 // import cards from "./tcgCards.json" with { type: "json" };
 // import cards from "./cards_2.json" with { type: "json" };
-import cards from "./cards_set_2.json" with { type: "json" };
+import cards from "./cards_set_1.json" with { type: "json" };
 import fs from "fs";
 import path from "path";
 
-const dir = path.join(process.cwd(), "public", "_set2");
+const dir = path.join(process.cwd(), "public", "_set1");
 const files = fs
   .readdirSync(dir)
   .filter((f) => /\.(jpg|jpeg|png|webp|avif)$/i.test(f))
@@ -15,12 +15,12 @@ const files = fs
     return numA - numB;
   });
 
-const entries = [];
+let entries = [];
 entries.push(...cards);
 entries.forEach((entry, index) => {
-  entry.type = getCardNum(entry.cardId).letter;
-  entry.set = 2;
-  entry.filename = files[index] || "unknown";
+  const { letter, set } = getCardNum(entry.cardId);
+  entry.type = letter;
+  entry.set = set;
 });
 
 entries.sort((a, b) => {
@@ -46,14 +46,14 @@ entries.forEach((entry, index) => {
 });
 
 fs.writeFileSync(
-  path.join(process.cwd(), "src/assets/cards_set_2.json"),
+  path.join(process.cwd(), "src/assets/cards_set_1.json"),
   JSON.stringify(entries, null, 2) + "\n",
 );
 
 function getCardNum(cardId) {
-  const parts = cardId.split("-");
-  const id = parts.pop();
-  const letter = id[0];
-  const num = Number.parseInt(id.slice(1), 10);
-  return { letter, num };
+  const [el0, el1] = cardId.split("-");
+  const letter = el1[0];
+  const num = Number.parseInt(el1.slice(1), 10);
+  const set = Number.parseInt(el0[4], 10);
+  return { letter, num, set };
 }
