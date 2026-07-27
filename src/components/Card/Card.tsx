@@ -16,7 +16,6 @@ type TcgCardProps = {
   card: {
     cardId: string;
     name: string;
-    filename: string;
     rarity: number;
     set: number;
   };
@@ -26,10 +25,7 @@ type TcgCardProps = {
 
 export default function TcgCard({ card, onClick }: TcgCardProps) {
   const size = useAtomValue(cardSizeAtom);
-  const normalizedFilename = card.filename.startsWith("cellImage_")
-    ? card.filename
-    : `cellImage_${card.filename}`;
-  const imageUrl = `/_set${card.set}/${normalizedFilename}`;
+  const imageUrl = `/_set${card.set}/${card.cardId}.jpg`;
   const scale = CARD_SIZE_SCALE[size];
   const width = CARD_WIDTH * scale;
   const height = CARD_HEIGHT * scale;
