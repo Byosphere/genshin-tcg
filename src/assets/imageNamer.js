@@ -41,7 +41,7 @@ for (const card of cards) {
   if (targetName !== originalName) {
     const targetPath = path.join(dir, targetName);
     fs.renameSync(sourcePath, targetPath);
-    card.filename = targetName;
+    delete card.filename;
     renamedCount += 1;
   }
 }
