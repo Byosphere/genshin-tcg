@@ -1,6 +1,7 @@
 // import cards from "./cards_1.json" with { type: "json" };
 // import cards from "./tcgCards.json" with { type: "json" };
-import cards from "./cards_2.json" with { type: "json" };
+// import cards from "./cards_2.json" with { type: "json" };
+import cards from "./cards_set_2.json" with { type: "json" };
 import fs from "fs";
 import path from "path";
 
