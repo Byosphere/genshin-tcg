@@ -576,22 +576,6 @@
     "set": 2
   },
   {
-    "cardType": "Action",
-    "cardId": "GCG02B-A007",
-    "rarity": 1,
-    "name": "悉数讨回",
-    "type": "A",
-    "set": 2
-  },
-  {
-    "cardType": "Action",
-    "cardId": "GCG02B-A007",
-    "rarity": 2,
-    "name": "悉数讨回",
-    "type": "A",
-    "set": 2
-  },
-  {
     "cardType": "Equipment",
     "cardId": "GCG02B-A019",
     "rarity": 1,

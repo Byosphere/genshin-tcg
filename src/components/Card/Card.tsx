@@ -25,7 +25,8 @@ type TcgCardProps = {
 
 export default function TcgCard({ card, onClick }: TcgCardProps) {
   const size = useAtomValue(cardSizeAtom);
-  const imageUrl = `/_set${card.set}/${card.cardId}.jpg`;
+  const rarity = card.rarity > 1 ? "_" + card.rarity : "";
+  const imageUrl = `/_set${card.set}/${card.cardId}${rarity}.jpg`;
   const scale = CARD_SIZE_SCALE[size];
   const width = CARD_WIDTH * scale;
   const height = CARD_HEIGHT * scale;
