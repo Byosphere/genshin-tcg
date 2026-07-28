@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/genshin-tcg/",
+  base: "/genshin-tcg-site/",
 
   resolve: {
     tsconfigPaths: true,

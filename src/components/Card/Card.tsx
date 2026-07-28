@@ -27,7 +27,7 @@ export default function TcgCard({ card, onClick }: TcgCardProps) {
 
   function getImgUrl(c: CardRecord) {
     const rarity = c.rarity > 1 ? "_" + c.rarity : "";
-    return `/_set${c.set}/${c.cardId}${rarity}.jpg`;
+    return `${import.meta.env.BASE_URL}_set${c.set}/${c.cardId}${rarity}.jpg`;
   }
 
   return (
