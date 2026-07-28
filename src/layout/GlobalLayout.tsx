@@ -74,7 +74,6 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
               <CardsThreeIcon />
             </ActionIcon>
           </Tooltip>
-          <ActionIcon variant="default" size="lg"></ActionIcon>
           <Divider w="calc(100% - 24px)" />
           <Space flex={1} />
           <SegmentedControl

@@ -1736,7 +1736,7 @@
     "set": 3
   },
   {
-    "cardType": "Event",
+    "cardType": "Status",
     "cardId": "GCG03B-T032",
     "rarity": 1,
     "name": "结晶",
@@ -1744,7 +1744,7 @@
     "set": 3
   },
   {
-    "cardType": "Event",
+    "cardType": "Status",
     "cardId": "GCG03B-T033",
     "rarity": 1,
     "name": "激化领域",
@@ -1752,7 +1752,7 @@
     "set": 3
   },
   {
-    "cardType": "Event",
+    "cardType": "Status",
     "cardId": "GCG03B-T034",
     "rarity": 1,
     "name": "草原核",

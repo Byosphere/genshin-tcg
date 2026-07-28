@@ -2112,7 +2112,7 @@
     "set": 4
   },
   {
-    "cardType": "Character",
+    "cardType": "Status",
     "cardId": "GCG04B-T036",
     "rarity": 1,
     "name": "Frozen",
@@ -2160,7 +2160,7 @@
     "set": 4
   },
   {
-    "cardType": "Character",
+    "cardType": "Status",
     "cardId": "GCG04B-T116",
     "rarity": 1,
     "name": "Snappy Silhouette",
