@@ -22,8 +22,10 @@ import {
 import { useAtom } from "jotai";
 import { cardSizeAtom } from "@/store/cards";
 import { startTransition } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function GlobalLayout({ children }: { children: React.ReactNode }) {
+  const navigate = useNavigate();
   const [opened, { toggle }] = useDisclosure();
   const [size, setSize] = useAtom(cardSizeAtom);
 
@@ -33,9 +35,20 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
     });
   };
 
+  const handleClick =
+    (link: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
+      e.preventDefault();
+      navigate(link);
+    };
+
   return (
     <AppShell
-      header={{ height: 60 }}
+      header={{
+        height: {
+          base: 170,
+          sm: 60,
+        },
+      }}
       navbar={{
         width: 300,
         breakpoint: "sm",
@@ -45,8 +58,9 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
     >
       <Header opened={opened} toggle={toggle} />
 
-      <AppShell.Main pl={64}>
+      <AppShell.Main pl={{ sm: 64 }}>
         <Flex
+          visibleFrom="sm"
           pos="fixed"
           direction="column"
           align="center"
@@ -60,23 +74,42 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
           gap="md"
         >
           <Tooltip position="right" label="All cards list" withArrow>
-            <ActionIcon variant="default" size="lg">
+            <ActionIcon
+              component="a"
+              variant="default"
+              size="lg"
+              href="/"
+              onClick={handleClick("/")}
+            >
               <HouseIcon />
             </ActionIcon>
           </Tooltip>
           <Tooltip position="right" label="My collection" withArrow>
-            <ActionIcon variant="default" size="lg">
+            <ActionIcon
+              component="a"
+              variant="default"
+              size="lg"
+              href="/genshin-tcg-site/collection"
+              onClick={handleClick("/collection")}
+            >
               <ListChecksIcon />
             </ActionIcon>
           </Tooltip>
           <Tooltip position="right" label="Deck builder" withArrow>
-            <ActionIcon variant="default" size="lg">
+            <ActionIcon
+              component="a"
+              variant="default"
+              size="lg"
+              href="/genshin-tcg-site/deck-builder"
+              onClick={handleClick("/deck-builder")}
+            >
               <CardsThreeIcon />
             </ActionIcon>
           </Tooltip>
           <Divider w="calc(100% - 24px)" />
           <Space flex={1} />
           <SegmentedControl
+            visibleFrom="sm"
             orientation="vertical"
             size="xs"
             style={{
@@ -138,6 +171,7 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
         </Flex>
         {children}
       </AppShell.Main>
+      <AppShell.Navbar py="md" px="md"></AppShell.Navbar>
     </AppShell>
   );
 }

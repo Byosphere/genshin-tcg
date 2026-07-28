@@ -1,16 +1,7 @@
-import { Box, Card, Checkbox, Flex, Skeleton, Text } from "@mantine/core";
+import { Card, Checkbox, Flex, Skeleton, Text } from "@mantine/core";
 import classes from "./Card.module.css";
-import { useAtomValue } from "jotai";
-import { CardRecord, cardSizeAtom } from "@/store/cards";
-
-export const CARD_WIDTH = 400;
-export const CARD_HEIGHT = 560;
-
-export const CARD_SIZE_SCALE = {
-  xs: 0.5,
-  sm: 0.75,
-  md: 1,
-} as const;
+import { CardRecord } from "@/store/cards";
+import useCardSize from "@/hooks/useCardSize";
 
 type TcgCardProps = {
   card: CardRecord;
@@ -19,11 +10,7 @@ type TcgCardProps = {
 };
 
 export default function TcgCard({ card, onClick }: TcgCardProps) {
-  const size = useAtomValue(cardSizeAtom);
-  const scale = CARD_SIZE_SCALE[size];
-  const width = CARD_WIDTH * scale;
-  const height = CARD_HEIGHT * scale;
-  const radius = 20 * scale;
+  const { width, height, radius, size } = useCardSize();
 
   function getImgUrl(c: CardRecord) {
     const rarity = c.rarity > 1 ? "_" + c.rarity : "";
