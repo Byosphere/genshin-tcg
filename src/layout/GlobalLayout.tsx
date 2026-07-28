@@ -1,10 +1,37 @@
-import { AppShell, UnstyledButton } from "@mantine/core";
+import {
+  ActionIcon,
+  AppShell,
+  Box,
+  Center,
+  Divider,
+  Flex,
+  SegmentedControl,
+  Space,
+  Tooltip,
+  UnstyledButton,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./GlobalLayout.module.css";
 import Header from "./Header";
+import {
+  CardsIcon,
+  CardsThreeIcon,
+  HouseIcon,
+  ListChecksIcon,
+} from "@phosphor-icons/react";
+import { useAtom } from "jotai";
+import { cardSizeAtom } from "@/store/cards";
+import { startTransition } from "react";
 
 export function GlobalLayout({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
+  const [size, setSize] = useAtom(cardSizeAtom);
+
+  const handleSizeChange = (value: "xs" | "sm" | "md") => {
+    startTransition(() => {
+      setSize(value);
+    });
+  };
 
   return (
     <AppShell
@@ -17,14 +44,101 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
       padding={0}
     >
       <Header opened={opened} toggle={toggle} />
-      <AppShell.Navbar py="md" px={4}>
-        <UnstyledButton className={classes.control}>Home</UnstyledButton>
-        <UnstyledButton className={classes.control}>Blog</UnstyledButton>
-        <UnstyledButton className={classes.control}>Contacts</UnstyledButton>
-        <UnstyledButton className={classes.control}>Support</UnstyledButton>
-      </AppShell.Navbar>
 
-      <AppShell.Main>{children}</AppShell.Main>
+      <AppShell.Main pl={64}>
+        <Flex
+          pos="fixed"
+          direction="column"
+          align="center"
+          style={{
+            borderRight: "1px solid var(--mantine-color-dark-4)",
+          }}
+          w={64}
+          h="calc(100% - 60px)"
+          left={0}
+          py="md"
+          gap="md"
+        >
+          <Tooltip position="right" label="All cards list" withArrow>
+            <ActionIcon variant="default" size="lg">
+              <HouseIcon />
+            </ActionIcon>
+          </Tooltip>
+          <Tooltip position="right" label="My collection" withArrow>
+            <ActionIcon variant="default" size="lg">
+              <ListChecksIcon />
+            </ActionIcon>
+          </Tooltip>
+          <Tooltip position="right" label="Deck builder" withArrow>
+            <ActionIcon variant="default" size="lg">
+              <CardsThreeIcon />
+            </ActionIcon>
+          </Tooltip>
+          <ActionIcon variant="default" size="lg"></ActionIcon>
+          <Divider w="calc(100% - 24px)" />
+          <Space flex={1} />
+          <SegmentedControl
+            orientation="vertical"
+            size="xs"
+            style={{
+              border: "1px solid var(--mantine-color-default-border)",
+            }}
+            value={size}
+            onChange={handleSizeChange}
+            data={[
+              {
+                value: "xs",
+                label: (
+                  <Center w={20} h={28}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{
+                        border: "1px solid white",
+                        borderRadius: "1px",
+                      }}
+                      w={10}
+                      h={12}
+                    />
+                  </Center>
+                ),
+              },
+              {
+                value: "sm",
+                label: (
+                  <Center w={20} h={28}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{
+                        border: "1px solid white",
+                        borderRadius: "1px",
+                      }}
+                      w={12}
+                      h={16}
+                    />
+                  </Center>
+                ),
+              },
+              {
+                value: "md",
+                label: (
+                  <Center w={20} h={28}>
+                    <Box
+                      bg="rgba(255,255,255,0.2)"
+                      style={{
+                        border: "1px solid white",
+                        borderRadius: "1px",
+                      }}
+                      w={15}
+                      h={18}
+                    />
+                  </Center>
+                ),
+              },
+            ]}
+          />
+        </Flex>
+        {children}
+      </AppShell.Main>
     </AppShell>
   );
 }

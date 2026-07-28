@@ -33,6 +33,7 @@ export type CardFilters = {
   cardType: CardType | "all";
   set: number[];
   grouped: boolean;
+  rarity: number | "all";
 };
 
 export const cardsAtom = atom<CardRecord[]>(cardsData as CardRecord[]);
@@ -42,6 +43,7 @@ export const filtersAtom = atomWithStorage<CardFilters>("card-filter", {
   cardType: "all",
   set: [],
   grouped: false,
+  rarity: "all",
 });
 export const currentPageAtom = atom(1);
 export const cardsPerPageAtom = atom(80);
@@ -130,6 +132,9 @@ export function filterCards(
     const matchesSet =
       filters.set.length === 0 || filters.set.includes(card.set);
 
-    return matchesQuery && matchesCardType && matchesSet;
+    const matchesRarity =
+      filters.rarity === "all" || card.rarity === filters.rarity;
+
+    return matchesQuery && matchesCardType && matchesSet && matchesRarity;
   });
 }
