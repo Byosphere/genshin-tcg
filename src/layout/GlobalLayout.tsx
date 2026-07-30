@@ -100,8 +100,9 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
               component="a"
               variant="default"
               size="lg"
-              href="/genshin-tcg-site/deck-builder"
-              onClick={handleClick("/deck-builder")}
+              // href="/genshin-tcg-site/deck-builder"
+              // onClick={handleClick("/deck-builder")}
+              disabled
             >
               <CardsThreeIcon />
             </ActionIcon>

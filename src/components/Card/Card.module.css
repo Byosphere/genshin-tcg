@@ -1,9 +1,19 @@
 .card {
-  cursor: pointer;
   border: 3px solid transparent;
   overflow: hidden;
-  &:hover {
-    transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+
+  &:hover,
+  &[data-selected="true"] {
     border: 3px solid var(--mantine-primary-color-filled);
+
+    .actions {
+      opacity: 1;
+    }
   }
+}
+
+.actions {
+  transition: all 0.1s ease-in;
+  opacity: 0;
 }

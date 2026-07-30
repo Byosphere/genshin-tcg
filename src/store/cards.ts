@@ -1,4 +1,4 @@
-import { atom } from "jotai";
+import { atom, useAtomValue } from "jotai";
 
 import cardsData1 from "@/assets/cards_set_1.json";
 import cardsData2 from "@/assets/cards_set_2.json";
@@ -137,4 +137,16 @@ export function filterCards(
 
     return matchesQuery && matchesCardType && matchesSet && matchesRarity;
   });
+}
+
+export function getCardsFromIds(cardIds: string[]) {
+  const cards = useAtomValue(cardsAtom);
+  return cardIds
+    .map((c) => {
+      const id = c.split("/")[0];
+      const rarity = parseInt(c.split("/")[1], 10);
+      const cardEl = cards.find((c) => c.cardId === id && c.rarity === rarity);
+      return cardEl;
+    })
+    .filter((c) => !!c);
 }

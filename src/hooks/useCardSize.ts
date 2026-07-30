@@ -24,3 +24,12 @@ export default function useCardSize() {
     radius: 20 * CARD_SIZE_SCALE[size],
   };
 }
+
+export function getCardSize(size: "xs" | "sm" | "md") {
+  return {
+    size,
+    width: CARD_WIDTH * CARD_SIZE_SCALE[size],
+    height: CARD_HEIGHT * CARD_SIZE_SCALE[size],
+    radius: 20 * CARD_SIZE_SCALE[size],
+  };
+}
