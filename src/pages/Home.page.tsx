@@ -7,6 +7,7 @@ import {
   totalPagesAtom,
   paginatedCardsAtom,
   CardRecord,
+  cardDisplay,
 } from "@/store/cards";
 import { userCards } from "@/store/user";
 import {
@@ -17,20 +18,27 @@ import {
   Divider,
   Flex,
   Pagination,
+  Space,
   Text,
+  Tooltip,
 } from "@mantine/core";
-import { PlusIcon } from "@phosphor-icons/react";
+import { notifications } from "@mantine/notifications";
+import { ListChecksIcon, PlusIcon, ShareIcon } from "@phosphor-icons/react";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useEffect, useState } from "react";
 
+import classes from "./Home.page.module.css";
+
 export function HomePage() {
-  const { width, size } = useCardSize();
+  const { width } = useCardSize();
   const [selected, setSelected] = useState<string[]>([]);
-  const setToCollection = useSetAtom(userCards);
+  const [collection, setToCollection] = useAtom(userCards);
   const filteredCards = useAtomValue(filteredCardsAtom);
   const paginatedCards = useAtomValue(paginatedCardsAtom);
   const totalPages = useAtomValue(totalPagesAtom);
   const [page, setCurrentPage] = useAtom(currentPageAtom);
+  const display = useAtomValue(cardDisplay);
+  const allCardsMode = display === "all";
 
   useEffect(() => {
     setCurrentPage(1);
@@ -55,13 +63,35 @@ export function HomePage() {
   };
 
   const handleAddToCollection = () => {
+    const nbElements = selected.length;
     setToCollection((c) => [...new Set([...c, ...selected])]);
+    setSelected([]);
+    notifications.show({
+      title: "Collection updated",
+      message: `${nbElements} card${nbElements !== 1 ? "s" : ""} added to the collection!`,
+    });
+  };
+
+  const handleUnselect = () => {
     setSelected([]);
   };
 
+  const handleAdd = (card: CardRecord) => {};
+
+  const handleRemove = (card: CardRecord) => {};
+
   return (
     <GlobalLayout>
-      <Flex py="sm" px="md" justify="flex-end" gap="sm" align="center">
+      <Flex
+        pos="sticky"
+        top={64}
+        py="xs"
+        px="md"
+        justify="flex-end"
+        gap="sm"
+        align="center"
+        className={classes.paginationBar}
+      >
         {selected.length > 0 && (
           <Flex
             bg="dark.8"
@@ -69,14 +99,10 @@ export function HomePage() {
             pl="md"
             gap="sm"
             mr="md"
-            h="100%"
-            style={{
-              border: "1px solid var(--mantine-primary-color-filled)",
-              borderRadius: "18px",
-            }}
+            className={classes.selectBar}
           >
-            <Text></Text>
             <Button
+              flex={1}
               size="xs"
               variant="transparent"
               leftSection={<PlusIcon size={14} />}
@@ -84,7 +110,7 @@ export function HomePage() {
             >
               Add {selected.length} card(s) to collection
             </Button>
-            <ActionIcon size="sm" radius="xl" mr={4}>
+            <ActionIcon size="sm" radius="xl" mr={4} onClick={handleUnselect}>
               <CloseIcon />
             </ActionIcon>
           </Flex>
@@ -98,7 +124,6 @@ export function HomePage() {
           withPages={false}
         />
       </Flex>
-      <Divider />
       <Box
         my="md"
         mx="auto"
@@ -110,18 +135,39 @@ export function HomePage() {
           justifyContent: "center",
         }}
       >
-        {paginatedCards.map((card) => (
-          <TcgCard
-            key={card.cardId + "_" + card.rarity}
-            selected={selected.includes(card.cardId + "/" + card.rarity)}
-            card={card}
-            toggleSelect={handleSelect}
-            size={size}
-          />
-        ))}
+        {paginatedCards.map((card) => {
+          const collected = collection.includes(
+            card.cardId + "/" + card.rarity,
+          );
+
+          return (
+            <TcgCard
+              key={card.cardId + "_" + card.rarity}
+              selected={selected.includes(card.cardId + "/" + card.rarity)}
+              collected={allCardsMode ? undefined : collected}
+              card={card}
+              toggleSelect={handleSelect}
+              onAdd={
+                allCardsMode || !collected ? () => handleAdd(card) : undefined
+              }
+              onDelete={
+                collected && !allCardsMode
+                  ? () => handleRemove(card)
+                  : undefined
+              }
+            />
+          );
+        })}
       </Box>
       <Divider />
-      <Flex py="sm" px="md" justify="flex-end" gap="sm" align="center">
+      <Flex
+        py="sm"
+        px="md"
+        justify="flex-end"
+        gap="sm"
+        align="center"
+        className={classes.paginationBar}
+      >
         <Text size="sm">{`Showing ${paginatedCards.length * (page - 1) + 1} – ${Math.min(filteredCards.length, paginatedCards.length * page)} of ${filteredCards.length} cards`}</Text>
         <Pagination
           miw={72}

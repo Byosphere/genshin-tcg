@@ -36,6 +36,7 @@ export type CardFilters = {
   rarity: number | "all";
 };
 
+export const cardDisplay = atom<"all" | "mine">("all");
 export const cardsAtom = atom<CardRecord[]>(cardsData as CardRecord[]);
 export const searchQueryAtom = atom("");
 export const cardSizeAtom = atom<"xs" | "sm" | "md">("xs");

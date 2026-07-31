@@ -1,39 +1,45 @@
 import {
   ActionIcon,
+  Box,
   Card,
   Checkbox,
+  CloseIcon,
+  Divider,
   Flex,
+  Paper,
   Skeleton,
   Space,
   Text,
+  Tooltip,
 } from "@mantine/core";
 import classes from "./Card.module.css";
 import { CardRecord } from "@/store/cards";
 import { getCardSize } from "@/hooks/useCardSize";
-import { PlusIcon, TrashIcon } from "@phosphor-icons/react";
+import {
+  MagnifyingGlassPlusIcon,
+  PlusIcon,
+  TrashIcon,
+} from "@phosphor-icons/react";
+import { modals } from "@mantine/modals";
 
 type TcgCardProps = {
   card: CardRecord;
   collected?: boolean;
-  onClick?: () => void;
   toggleSelect?: (selected: boolean, card: CardRecord) => void;
   selected?: boolean;
-  size: "xs" | "sm" | "md";
   onAdd?: (card: CardRecord) => void;
   onDelete?: (card: CardRecord) => void;
 };
 
 export default function TcgCard({
   card,
-  onClick,
   collected,
   selected,
   toggleSelect,
-  size,
   onAdd,
   onDelete,
 }: TcgCardProps) {
-  const { width, height, radius } = getCardSize(size);
+  const { width, height, radius } = getCardSize("xs");
   const active = collected === undefined || collected === true;
 
   function getImgUrl(c: CardRecord) {
@@ -45,6 +51,45 @@ export default function TcgCard({
     toggleSelect?.(e.target.checked, card);
   }
 
+  function handleAdd(e: React.MouseEvent) {
+    e.stopPropagation();
+    onAdd?.(card);
+  }
+
+  function handleDelete(e: React.MouseEvent) {
+    e.stopPropagation();
+    onDelete?.(card);
+  }
+
+  const handleZoom = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const { width: w, height: h, radius: r } = getCardSize("md");
+
+    modals.openConfirmModal({
+      title: card.name,
+      children: (
+        <Box>
+          <Text size="xs">ID: {card.cardId}</Text>
+          <Text size="xs">Rarity: {card.rarity}</Text>
+          <Text size="xs">Type: {card.type}</Text>
+          <Paper
+            bg={`url("${getImgUrl(card)}") center/cover no-repeat`}
+            radius={r}
+            w={w}
+            h={h}
+            maw="100%"
+            style={{ aspectRatio: w + " / " + h }}
+            my="md"
+            mx="auto"
+          />
+        </Box>
+      ),
+      labels: { confirm: "", cancel: "Close" },
+      onConfirm: () => console.log("Confirmed"),
+      confirmProps: { display: "none" },
+    });
+  };
+
   return (
     <Card
       pos="relative"
@@ -55,7 +100,7 @@ export default function TcgCard({
       p={0}
       className={classes.card}
       data-selected={!!selected}
-      onClick={onClick}
+      onClick={() => toggleSelect?.(!selected, card)}
     >
       <Skeleton w={width} h={height} radius={radius} visible />
       <Flex
@@ -75,10 +120,14 @@ export default function TcgCard({
         style={{ zIndex: 1 }}
         bg="rgba(0,0,0,0.7)"
         opacity={active ? 1 : 0.2}
+        onClick={handleZoom}
       >
-        <Text fw={600} size={size}>
+        <Text fw={600} size="xs">
           {card.name} - {card.cardId.split("-")[1]}
         </Text>
+        <ActionIcon size="sm" variant="transparent">
+          <MagnifyingGlassPlusIcon />
+        </ActionIcon>
       </Flex>
       <Flex
         className={classes.actions}
@@ -98,14 +147,23 @@ export default function TcgCard({
         )}
         <Space flex={1} />
         {onAdd && (
-          <ActionIcon size="sm" radius="sm" color="blue">
-            <PlusIcon />
-          </ActionIcon>
+          <Tooltip label="Add to collection" withArrow>
+            <ActionIcon size="sm" radius="sm" onClick={handleAdd}>
+              <PlusIcon />
+            </ActionIcon>
+          </Tooltip>
         )}
         {onDelete && (
-          <ActionIcon size="sm" radius="sm" color="red">
-            <TrashIcon />
-          </ActionIcon>
+          <Tooltip label="Remove from collection" withArrow>
+            <ActionIcon
+              size="sm"
+              radius="sm"
+              color="red"
+              onClick={handleDelete}
+            >
+              <CloseIcon />
+            </ActionIcon>
+          </Tooltip>
         )}
       </Flex>
     </Card>

@@ -1,39 +1,12 @@
-import {
-  ActionIcon,
-  AppShell,
-  Box,
-  Center,
-  Divider,
-  Flex,
-  SegmentedControl,
-  Space,
-  Tooltip,
-  UnstyledButton,
-} from "@mantine/core";
+import { Anchor, AppShell, Flex, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./GlobalLayout.module.css";
 import Header from "./Header";
-import {
-  CardsIcon,
-  CardsThreeIcon,
-  HouseIcon,
-  ListChecksIcon,
-} from "@phosphor-icons/react";
-import { useAtom } from "jotai";
-import { cardSizeAtom } from "@/store/cards";
-import { startTransition } from "react";
 import { useNavigate } from "react-router-dom";
 
 export function GlobalLayout({ children }: { children: React.ReactNode }) {
   const navigate = useNavigate();
   const [opened, { toggle }] = useDisclosure();
-  const [size, setSize] = useAtom(cardSizeAtom);
-
-  const handleSizeChange = (value: "xs" | "sm" | "md") => {
-    startTransition(() => {
-      setSize(value);
-    });
-  };
 
   const handleClick =
     (link: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -44,10 +17,7 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
   return (
     <AppShell
       header={{
-        height: {
-          base: 170,
-          sm: 60,
-        },
+        height: 64,
       }}
       navbar={{
         width: 300,
@@ -58,8 +28,8 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
     >
       <Header opened={opened} toggle={toggle} />
 
-      <AppShell.Main pl={{ sm: 64 }}>
-        <Flex
+      <AppShell.Main>
+        {/* <Flex
           visibleFrom="sm"
           pos="fixed"
           direction="column"
@@ -169,10 +139,20 @@ export function GlobalLayout({ children }: { children: React.ReactNode }) {
               },
             ]}
           />
-        </Flex>
+        </Flex> */}
         {children}
+        <Flex h={32} px="md" bg="dark.9" align="center">
+          <Text size="xs">
+            All images belong to Hoyoverse -{" "}
+            <Anchor
+              href="https://github.com/Byosphere/genshin-tcg"
+              target="_blank"
+            >
+              App made by Byosphere
+            </Anchor>
+          </Text>
+        </Flex>
       </AppShell.Main>
-      <AppShell.Navbar py="md" px="md"></AppShell.Navbar>
     </AppShell>
   );
 }
