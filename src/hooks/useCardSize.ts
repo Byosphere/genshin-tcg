@@ -12,7 +12,7 @@ export const CARD_WIDTH = 400;
 export const CARD_HEIGHT = 560;
 
 export default function useCardSize() {
-  const smallScreem = useMediaQuery("(max-width: 360px)");
+  const smallScreem = useMediaQuery("(max-width: 480px)");
   const mediumScreem = useMediaQuery("(max-width: 500px)");
   const userSize = useAtomValue(cardSizeAtom);
   const size = smallScreem ? "xs" : mediumScreem ? "sm" : userSize;

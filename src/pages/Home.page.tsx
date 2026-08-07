@@ -1,5 +1,5 @@
 import TcgCard from "@/components/Card/Card";
-import useCardSize from "@/hooks/useCardSize";
+import { getCardSize } from "@/hooks/useCardSize";
 import { GlobalLayout } from "@/layout/GlobalLayout";
 import {
   filteredCardsAtom,
@@ -18,27 +18,22 @@ import {
   Divider,
   Flex,
   Pagination,
-  Space,
   Text,
-  Tooltip,
 } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
-import { ListChecksIcon, PlusIcon, ShareIcon } from "@phosphor-icons/react";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { PlusIcon } from "@phosphor-icons/react";
+import { useAtom, useAtomValue } from "jotai";
 import { useEffect, useState } from "react";
 
 import classes from "./Home.page.module.css";
 
 export function HomePage() {
-  const { width } = useCardSize();
   const [selected, setSelected] = useState<string[]>([]);
   const [collection, setToCollection] = useAtom(userCards);
   const filteredCards = useAtomValue(filteredCardsAtom);
   const paginatedCards = useAtomValue(paginatedCardsAtom);
   const totalPages = useAtomValue(totalPagesAtom);
   const [page, setCurrentPage] = useAtom(currentPageAtom);
-  const display = useAtomValue(cardDisplay);
-  const allCardsMode = display === "all";
 
   useEffect(() => {
     setCurrentPage(1);
@@ -76,9 +71,29 @@ export function HomePage() {
     setSelected([]);
   };
 
-  const handleAdd = (card: CardRecord) => {};
+  const handleAdd = (card: CardRecord) => {
+    if (collection.includes(card.cardId + "/" + card.rarity)) return;
 
-  const handleRemove = (card: CardRecord) => {};
+    setToCollection((c) => [
+      ...new Set([...c, card.cardId + "/" + card.rarity]),
+    ]);
+    notifications.show({
+      title: "Collection updated",
+      message: `1 card added to the collection!`,
+    });
+  };
+
+  const handleRemove = (card: CardRecord) => {
+    if (!collection.includes(card.cardId + "/" + card.rarity)) return;
+
+    setToCollection((c) =>
+      c.filter((id) => id !== card.cardId + "/" + card.rarity),
+    );
+    notifications.show({
+      title: "Collection updated",
+      message: `1 card removed from the collection!`,
+    });
+  };
 
   return (
     <GlobalLayout>
@@ -131,8 +146,9 @@ export function HomePage() {
         style={{
           display: "grid",
           gap: "16px",
-          gridTemplateColumns: `repeat(auto-fit, ${width}px)`,
+          gridTemplateColumns: `repeat(auto-fit, ${getCardSize("xs").width}px)`,
           justifyContent: "center",
+          minHeight: "calc(100vh - 240px)",
         }}
       >
         {paginatedCards.map((card) => {
@@ -144,17 +160,11 @@ export function HomePage() {
             <TcgCard
               key={card.cardId + "_" + card.rarity}
               selected={selected.includes(card.cardId + "/" + card.rarity)}
-              collected={allCardsMode ? undefined : collected}
+              collected={collected}
               card={card}
               toggleSelect={handleSelect}
-              onAdd={
-                allCardsMode || !collected ? () => handleAdd(card) : undefined
-              }
-              onDelete={
-                collected && !allCardsMode
-                  ? () => handleRemove(card)
-                  : undefined
-              }
+              onAdd={handleAdd}
+              onDelete={handleRemove}
             />
           );
         })}

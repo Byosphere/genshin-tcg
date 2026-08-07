@@ -4,16 +4,16 @@ import {
   Card,
   Checkbox,
   CloseIcon,
-  Divider,
   Flex,
   Paper,
   Skeleton,
   Space,
+  Table,
   Text,
   Tooltip,
 } from "@mantine/core";
 import classes from "./Card.module.css";
-import { CardRecord } from "@/store/cards";
+import { cardDisplay, CardRecord } from "@/store/cards";
 import { getCardSize } from "@/hooks/useCardSize";
 import {
   MagnifyingGlassPlusIcon,
@@ -21,6 +21,7 @@ import {
   TrashIcon,
 } from "@phosphor-icons/react";
 import { modals } from "@mantine/modals";
+import { useAtomValue } from "jotai";
 
 type TcgCardProps = {
   card: CardRecord;
@@ -40,7 +41,9 @@ export default function TcgCard({
   onDelete,
 }: TcgCardProps) {
   const { width, height, radius } = getCardSize("xs");
-  const active = collected === undefined || collected === true;
+  const display = useAtomValue(cardDisplay);
+  const allCardsMode = display === "all";
+  const active = collected || allCardsMode;
 
   function getImgUrl(c: CardRecord) {
     const rarity = c.rarity > 1 ? "_" + c.rarity : "";
@@ -69,9 +72,6 @@ export default function TcgCard({
       title: card.name,
       children: (
         <Box>
-          <Text size="xs">ID: {card.cardId}</Text>
-          <Text size="xs">Rarity: {card.rarity}</Text>
-          <Text size="xs">Type: {card.type}</Text>
           <Paper
             bg={`url("${getImgUrl(card)}") center/cover no-repeat`}
             radius={r}
@@ -82,6 +82,22 @@ export default function TcgCard({
             my="md"
             mx="auto"
           />
+          <Table variant="vertical" layout="fixed" withTableBorder>
+            <Table.Tbody>
+              <Table.Tr>
+                <Table.Th w={160}>ID</Table.Th>
+                <Table.Td>{card.cardId}</Table.Td>
+              </Table.Tr>
+              <Table.Tr>
+                <Table.Th>Rarity</Table.Th>
+                <Table.Td>{card.rarity}</Table.Td>
+              </Table.Tr>
+              <Table.Tr>
+                <Table.Th>Type</Table.Th>
+                <Table.Td>{card.cardType}</Table.Td>
+              </Table.Tr>
+            </Table.Tbody>
+          </Table>
         </Box>
       ),
       labels: { confirm: "", cancel: "Close" },
@@ -146,14 +162,14 @@ export default function TcgCard({
           />
         )}
         <Space flex={1} />
-        {onAdd && (
+        {(!active || allCardsMode) && (
           <Tooltip label="Add to collection" withArrow>
             <ActionIcon size="sm" radius="sm" onClick={handleAdd}>
               <PlusIcon />
             </ActionIcon>
           </Tooltip>
         )}
-        {onDelete && (
+        {active && !allCardsMode && (
           <Tooltip label="Remove from collection" withArrow>
             <ActionIcon
               size="sm"

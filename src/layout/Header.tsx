@@ -8,28 +8,30 @@ import {
 import {
   ActionIcon,
   AppShell,
+  Badge,
   Burger,
-  Button,
+  Center,
   Flex,
   Group,
   Image,
-  List,
+  Menu,
   NativeSelect,
   SegmentedControl,
   TextInput,
   Title,
 } from "@mantine/core";
 import {
+  DownloadIcon,
   GearIcon,
-  ImageIcon,
-  ListChecksIcon,
   MagnifyingGlassIcon,
-  OptionIcon,
+  UploadIcon,
 } from "@phosphor-icons/react";
-import { useAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import classes from "./Header.module.css";
 import { startTransition, useState } from "react";
 import { useDebouncedCallback } from "@mantine/hooks";
+import { exportToCsv } from "@/tools";
+import { userCards } from "@/store/user";
 
 export default function Header({
   opened,
@@ -40,6 +42,7 @@ export default function Header({
 }) {
   const [search, setSearch] = useState("");
   const [searchQuery, setSearchQuery] = useAtom(searchQueryAtom);
+  const collection = useAtomValue(userCards);
   const [filters, setFilters] = useAtom(filtersAtom);
   const [display, setDisplay] = useAtom(cardDisplay);
 
@@ -57,6 +60,14 @@ export default function Header({
   const debouncedSetSearchQuery = useDebouncedCallback((value: string) => {
     setSearchQuery(value);
   }, 300);
+
+  const handleImportCollection = () => {
+    // TODO
+  };
+
+  const handleExportCollection = () => {
+    exportToCsv(collection, "collection.csv");
+  };
 
   return (
     <>
@@ -152,7 +163,7 @@ export default function Header({
             />
           </Group>
           <SegmentedControl
-            visibleFrom="sm"
+            size="md"
             data={[
               {
                 value: "all",
@@ -160,19 +171,51 @@ export default function Header({
               },
               {
                 value: "mine",
-                label: "My collection",
+                label: <span>My collection ({collection.length})</span>,
               },
             ]}
             value={display}
             onChange={setDisplay}
           />
-          <ActionIcon variant="default" size="input-sm">
-            <GearIcon />
-          </ActionIcon>
+          <Menu shadow="md" width={180} withArrow>
+            <Menu.Target>
+              <ActionIcon variant="default" size="input-sm">
+                <GearIcon />
+              </ActionIcon>
+            </Menu.Target>
+            <Menu.Dropdown>
+              <Menu.Item
+                leftSection={<DownloadIcon size={14} />}
+                onClick={handleImportCollection}
+              >
+                Import collection
+              </Menu.Item>
+              <Menu.Item
+                leftSection={<UploadIcon size={14} />}
+                onClick={handleExportCollection}
+              >
+                Export collection
+              </Menu.Item>
+            </Menu.Dropdown>
+          </Menu>
         </Group>
       </AppShell.Header>
       <AppShell.Navbar p="md">
-        <SegmentedControl size="md" data={["All cards", "My collection"]} />
+        <SegmentedControl
+          size="md"
+          data={[
+            {
+              value: "all",
+              label: "All cards",
+            },
+            {
+              value: "mine",
+              label: <span>My collection ({collection.length})</span>,
+            },
+          ]}
+          value={display}
+          onChange={setDisplay}
+        />
         <TextInput
           mb="md"
           mt="md"
